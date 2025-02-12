@@ -1,0 +1,121 @@
+2025-02-11 18:03:54,085 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-02-11 18:03:54,085 - INFO - Successfully set up Google Drive service
+2025-02-11 18:04:26,635 - INFO - Moved 1 videos to Unprocessed Videos
+2025-02-11 18:12:59,524 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 181259.mp4
+2025-02-11 18:13:00,528 - INFO - Waiting for file to finish writing: 158.8 MB
+2025-02-11 18:13:01,530 - INFO - Waiting for file to finish writing: 158.8 MB
+2025-02-11 18:13:01,531 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:13:04,674 - INFO - Authenticated as: video-monitor@video-layup.iam.gserviceaccount.com
+2025-02-11 18:13:05,046 - INFO - Found 23 folders in Google Drive
+2025-02-11 18:13:05,046 - INFO - Found folder: unit 9
+2025-02-11 18:13:05,048 - INFO - Found folder: unit 8
+2025-02-11 18:13:05,048 - INFO - Found folder: test
+2025-02-11 18:13:05,048 - INFO - Found folder: apstat
+2025-02-11 18:13:05,048 - INFO - Found folder: completed
+2025-02-11 18:13:05,048 - INFO - Found folder: n8n
+2025-02-11 18:13:05,048 - INFO - Found folder: 7-{5,6}
+2025-02-11 18:13:05,048 - INFO - Found folder: 7-{3,4}
+2025-02-11 18:13:05,048 - INFO - Found folder: workflow
+2025-02-11 18:13:05,049 - INFO - Found folder: unit7
+2025-02-11 18:13:05,049 - INFO - Found folder: unit6
+2025-02-11 18:13:05,049 - INFO - Found folder: w13d2
+2025-02-11 18:13:05,049 - INFO - Found folder: unit5
+2025-02-11 18:13:05,049 - INFO - Found folder: unit3
+2025-02-11 18:13:05,049 - INFO - Found folder: unit4
+2025-02-11 18:13:05,049 - INFO - Found folder: 5-8
+2025-02-11 18:13:05,049 - INFO - Found folder: 5-7
+2025-02-11 18:13:05,049 - INFO - Found folder: 5-6
+2025-02-11 18:13:05,049 - INFO - Found folder: 5-5
+2025-02-11 18:13:05,050 - INFO - Found folder: 5-4
+2025-02-11 18:13:05,050 - INFO - Found folder: 5-3
+2025-02-11 18:13:05,050 - INFO - Found folder: 5-2
+2025-02-11 18:13:05,050 - INFO - Found folder: 5-1
+2025-02-11 18:13:10,258 - INFO - Selected folder: unit 9
+2025-02-11 18:13:38,975 - INFO - Starting upload of apstat_9-3-1.mp4
+2025-02-11 18:14:53,946 - INFO - Upload progress: 62%
+2025-02-11 18:15:39,314 - INFO - File uploaded successfully: apstat_9-3-1.mp4
+Link: https://drive.google.com/file/d/1yWqjcF-IyHImRwTBV3cEIt13u0infZzI/view?usp=drivesdk
+2025-02-11 18:15:39,391 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 18:15:39,391 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 18:15:39,391 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 18:16:09,409 - INFO - Moved Screen Recording 2025-02-11 181259.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 18:21:33,636 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 182133.mp4
+2025-02-11 18:21:34,694 - INFO - Waiting for file to finish writing: 154.9 MB
+2025-02-11 18:21:35,695 - INFO - Waiting for file to finish writing: 154.9 MB
+2025-02-11 18:21:35,695 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:21:54,209 - INFO - Starting upload of apstat 9-3-2.mp4
+2025-02-11 18:23:10,028 - INFO - Upload progress: 64%
+2025-02-11 18:23:52,733 - INFO - File uploaded successfully: apstat 9-3-2.mp4
+Link: https://drive.google.com/file/d/1GqvcUy_AJRnTgDORWQkAVHSWjKpRxTaT/view?usp=drivesdk
+2025-02-11 18:23:52,733 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 18:23:52,733 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 18:23:52,734 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 18:24:22,739 - INFO - Moved Screen Recording 2025-02-11 182133.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 18:30:51,962 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 183051.mp4
+2025-02-11 18:30:52,966 - INFO - Waiting for file to finish writing: 159.8 MB
+2025-02-11 18:30:52,967 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:31:03,677 - INFO - Starting upload of apstat 9-4-1.mp4
+2025-02-11 18:32:15,554 - INFO - Upload progress: 62%
+2025-02-11 18:32:59,496 - INFO - File uploaded successfully: apstat 9-4-1.mp4
+Link: https://drive.google.com/file/d/1LKHmLObjf3Nnszvk833XeLgH5JJ9F0_g/view?usp=drivesdk
+2025-02-11 18:32:59,498 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 18:32:59,499 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 18:32:59,499 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 18:33:29,507 - INFO - Moved Screen Recording 2025-02-11 183051.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 18:39:01,826 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 183901.mp4
+2025-02-11 18:39:02,827 - INFO - Waiting for file to finish writing: 158.1 MB
+2025-02-11 18:39:02,827 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:39:15,140 - INFO - Starting upload of apstat 4-4-2.mp4
+2025-02-11 18:40:37,512 - INFO - Upload progress: 63%
+2025-02-11 18:41:25,848 - INFO - File uploaded successfully: apstat 4-4-2.mp4
+Link: https://drive.google.com/file/d/1EBPBsC-oJXGaxn7jp1Q92IWetvaPNl1M/view?usp=drivesdk
+2025-02-11 18:41:25,848 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 18:41:25,850 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 18:41:25,850 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 18:41:55,865 - INFO - Moved Screen Recording 2025-02-11 183901.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 18:48:51,533 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 184851.mp4
+2025-02-11 18:48:52,537 - INFO - Waiting for file to finish writing: 181.7 MB
+2025-02-11 18:48:53,539 - INFO - Waiting for file to finish writing: 181.7 MB
+2025-02-11 18:48:53,541 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:49:03,539 - INFO - Starting upload of apstat 9-5-1.mp4
+2025-02-11 18:50:20,776 - INFO - Upload progress: 55%
+2025-02-11 18:51:19,233 - INFO - File uploaded successfully: apstat 9-5-1.mp4
+Link: https://drive.google.com/file/d/1aggJHSL5dJcEBYuo4Z7M_lvsoLvx4RYY/view?usp=drivesdk
+2025-02-11 18:51:19,235 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 18:51:19,235 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 18:51:19,236 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 18:51:49,248 - INFO - Moved Screen Recording 2025-02-11 184851.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 18:58:14,087 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 185813.mp4
+2025-02-11 18:58:15,090 - INFO - Waiting for file to finish writing: 161.4 MB
+2025-02-11 18:58:16,096 - INFO - Waiting for file to finish writing: 161.4 MB
+2025-02-11 18:58:16,098 - INFO - File size stabilized, proceeding with upload
+2025-02-11 18:58:25,902 - INFO - Starting upload of apstat 9-5-2.mp4
+2025-02-11 18:59:47,560 - INFO - Upload progress: 61%
+2025-02-11 19:00:37,955 - INFO - File uploaded successfully: apstat 9-5-2.mp4
+Link: https://drive.google.com/file/d/1vct7foAM_sxXzRy4rviUox0DkQMm7Yf-/view?usp=drivesdk
+2025-02-11 19:00:37,956 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 19:00:37,958 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 19:00:37,958 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 19:01:07,970 - INFO - Moved Screen Recording 2025-02-11 185813.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 19:06:39,194 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 190639.mp4
+2025-02-11 19:06:40,196 - INFO - Waiting for file to finish writing: 164.9 MB
+2025-02-11 19:06:40,197 - INFO - File size stabilized, proceeding with upload
+2025-02-11 19:06:45,668 - INFO - Starting upload of apstat 9-5-3.mp4
+2025-02-11 19:08:06,706 - INFO - Upload progress: 60%
+2025-02-11 19:08:59,786 - INFO - File uploaded successfully: apstat 9-5-3.mp4
+Link: https://drive.google.com/file/d/1h5OJH_mC6MUqmKbW_K-Xqx7IN3bjOscz/view?usp=drivesdk
+2025-02-11 19:08:59,787 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 19:08:59,787 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 19:08:59,787 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 19:09:29,809 - INFO - Moved Screen Recording 2025-02-11 190639.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 19:16:29,780 - INFO - New video detected: C:\Users\ColsonR\Videos\Screen Recordings\Screen Recording 2025-02-11 191629.mp4
+2025-02-11 19:16:30,786 - INFO - Waiting for file to finish writing: 188.0 MB
+2025-02-11 19:16:30,787 - INFO - File size stabilized, proceeding with upload
+2025-02-11 19:24:29,459 - INFO - Starting upload of apstat 9-6-1.mp4
+2025-02-11 19:25:41,193 - INFO - Upload progress: 53%
+2025-02-11 19:26:44,145 - INFO - File uploaded successfully: apstat 9-6-1.mp4
+Link: https://drive.google.com/file/d/1FcZcPYSLBXLkfBkpkyTfAWQ6tR_WxZ6o/view?usp=drivesdk
+2025-02-11 19:26:44,160 - WARNING - Could not unlock file, will try moving anyway
+2025-02-11 19:26:44,160 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
+2025-02-11 19:26:44,160 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
+2025-02-11 19:27:14,183 - INFO - Moved Screen Recording 2025-02-11 191629.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos

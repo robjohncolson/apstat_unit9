@@ -1,0 +1,109 @@
+[00:00:00] Hello, AP stats students.
+[00:00:01] I'm Darren Starnes, coming to you from beautiful Hilton Head, South Carolina.
+[00:00:06] This is the third and final video on Topic 9.2,
+[00:00:10] confidence intervals for the slope of a regression model.
+[00:00:13] What will you learn in this video?
+[00:00:15] Two things.
+[00:00:16] How do you determine the margin of error when estimating the slope of a population regression line?
+[00:00:22] And second, how do you calculate a confidence interval for the slope of a population regression line?
+[00:00:28] Let's look at a familiar example from previous videos.
+[00:00:32] The goal here is to predict the wait time until the next eruption of Old Faithful given data on the duration of the previous eruption.
+[00:00:42] Here's a scatter plot showing 25 randomly selected eruptions in July of 2019, when my wife and I last visited Old Faithful.
+[00:00:51] You can see the sample regression line added to the plot and the computer output here confirming the equation of the sample regression line, uh, as we'll see in a moment.
+[00:01:02] We want to calculate and interpret a 95% confidence interval for the slope of the population regression line in 2019.
+[00:01:12] So, you'll recall from earlier in the course that confidence intervals always have the form: confidence interval equals point estimate plus or minus margin of error.
+[00:01:23] And the margin of error describes how much a value of a sample statistic is likely to vary from the value of the corresponding population parameter.
+[00:01:34] So, what does that mean for determining margin of error?
+[00:01:38] Well, two factors account for margin of error.
+[00:01:41] One is how much the sample statistic typically varies from the parameter.
+[00:01:46] And the other is how confident we want to be in our estimate.
+[00:01:50] So, we can write the formula for margin of error this way: It's the critical value found from some distribution times the standard error of our statistic.
+[00:02:02] How confident we want to be in our estimate determines our critical value.
+[00:02:07] More confidence requires a larger critical value to multiply.
+[00:02:11] And how much the statistic typically varies from the parameter is where the standard error comes in.
+[00:02:17] So, let's translate this to slope.
+[00:02:20] The standard error of slope is an estimate of the standard deviation of the sampling distribution of the slope.
+[00:02:27] Now, from Topic 9.2, earlier on, we saw the formula for the standard deviation of the sampling distribution of the slope is given by this fairly complicated formula.
+[00:02:37] Sigma sub b is equal to sigma divided by sigma x times the square root of n.
+[00:02:43] But we don't know sigma or sigma x.
+[00:02:45] Those are unknown population values.
+[00:02:47] So, we use the corresponding sample values to estimate them.
+[00:02:50] That is, we use the sample standard deviation of the residuals, s, to estimate the, uh, variability of the points around the population regression line, which we called sigma.
+[00:03:02] And we use the sample standard deviation of the x-values, sx, to approximate sigma x, the standard deviation of the x-values in the population.
+[00:03:11] So, we have our formula.
+[00:03:12] The standard error of the slope is equal to s divided by sx times the square root of n minus 1.
+[00:03:20] So, to calculate the margin of error, we need to also get the critical value, the multiplier we need to make the margin of error large enough to give us a specific amount of confidence that our interval will capture the true value of the parameter.
+[00:03:36] For confidence intervals about the slope of a population regression line, the critical value will represent the boundaries that encompass the middle C, where C is confidence level percent, of a t distribution with degrees of freedom n minus 2.
+[00:03:51] You've already used t distributions when doing inference about quantitative data for means, so they'll be familiar.
+[00:03:58] Let's take a look at this for the Old Faithful scenario.
+[00:04:02] We took a random sample of 25 eruptions from July of 2019.
+[00:04:06] So, to find that critical value, we need to use a t distribution with degrees of freedom equal to 25 minus 2, or 23.
+[00:04:15] So, here's a picture of what we're trying to find.
+[00:04:18] We want to find these critical values, t star, and this would be negative t star, that cut off the middle 95% of the distribution.
+[00:04:26] And the magic t star value, 2.069, is what we need.
+[00:04:32] That value can be found either with Table B from the formula sheet for AP Statistics, this one here, uh, finding the correct number of degrees of freedom down, uh, in the chart here, 23, and then going across until you have the corresponding tail probability that you need for 95% confidence.
+[00:04:52] So, that would be, uh, corresponding to the 2.069 number that you saw before.
+[00:04:59] There's your 2.069.
+[00:05:01] Another alternative is to use your calculator, uh, and do some sort of inverse T command on the calculator, using an area to the left of either 0.975 or 0.025.
+[00:05:13] So, you can use, uh, old technology with the table or new technology with your calculator.
+[00:05:19] However you get it, t star is 2.069.
+[00:05:23] So, we're now ready to calculate the confidence interval.
+[00:05:26] We use our statistic, which is going to be our sample slope, plus or minus our critical value that we just found, times the standard error of our statistic.
+[00:05:35] In symbol form, we've got b, for the sample slope, plus or minus t star times the standard error of b.
+[00:05:43] And here's the more complicated formula with the standard error of b written out.
+[00:05:47] We already have our computer output from the sample regression line.
+[00:05:52] And we can see that, uh, we have the slope of the sample regression line, 7.79.
+[00:05:58] We have the standard deviation of the residuals from the sample regression line, 4.2097.
+[00:06:04] We do not have the sample standard deviation of the x-values in computer output.
+[00:06:09] But from the previous video, we found it to be 0.213.
+[00:06:13] So, we can substitute those numbers into the formula along with the 2.069 that we found in the previous slide for the critical value.
+[00:06:22] And we can see that our standard error for the slope is 4.03.
+[00:06:29] Now, if you look back at the computer output, there's some really great news.
+[00:06:31] It's given in the computer output.
+[00:06:34] So, most of the time, you really won't need to mess with this, uh, pretty ugly formula.
+[00:06:38] You'll be able to just pull it straight off the computer output and plug it in.
+[00:06:42] Our margin of error is 8.34 after we multiply the critical value times the standard error.
+[00:06:48] So, we've got our point estimate plus or minus our margin of error, and the resulting interval is from negative 0.55 to 16.13.
+[00:06:59] Good news on the formula sheet.
+[00:07:01] We can see that, uh, the confidence interval formula generically is given, uh, up here in area three.
+[00:07:11] And further down in area three, we can see that the information about the sampling distributions for simple linear regression, in particular for the slope, the standard error formula for the slope is given over here in the right-hand column.
+[00:07:28] What affects the interval width?
+[00:07:29] Well, there are, uh, a couple of things.
+[00:07:31] Uh, don't forget that the interval width is is twice the margin of error, because it goes out from the center, uh, in both directions.
+[00:07:38] So, the margin of error was t star times standard deviation of the residuals around the sample regression line over sx times the square root of n minus 1.
+[00:07:48] We would like to have our confidence intervals be as narrow as they can be to offer us more precision, to get a really precise estimate.
+[00:07:56] So, in real research, there are two ways to get more precise estimate.
+[00:08:01] And I bet you already know the first one.
+[00:08:03] Take a larger random sample.
+[00:08:06] Uh, the sample size n is in the denominator.
+[00:08:08] So, increasing that value will decrease the fraction and therefore decrease the margin of error.
+[00:08:14] Another option is to decrease the confidence level, say from 95% to 90%, and then you won't need as large of a multiplier to get your critical value to capture the middle 90% under the the t distribution curve.
+[00:08:28] Let's do a quick practice.
+[00:08:30] Here's a new scenario with Raoul performing an experiment using 16 windup rubber band single-propeller airplanes, like maybe some of you used as a kid.
+[00:08:40] He wound up the propeller a different number of times and recorded the amount of time, in seconds, that the airplane flew for each number of rotations that the propeller was wound.
+[00:08:49] And here's a regression analysis that was performed, and the partial computer output that you see here.
+[00:08:57] Assuming the conditions for inference are satisfied, which of the following is a 95% confidence interval for the slope of the regression line that relates the number of rotations the rubber band is wound and the plane's flight time?
+[00:09:10] And here are the options.
+[00:09:12] So, what I'd love you to do now is pause the video.
+[00:09:15] Figure out which one you think is the correct confidence interval, and then unpause the video, and you'll see what I have to say.
+[00:09:26] All right, let's see what you got.
+[00:09:28] The formula for the confidence interval is sample slope plus or minus t critical value times standard error of slope.
+[00:09:36] The sample slope is given here, 0.04625.
+[00:09:40] The standard error of the slope is given here, 0.01565.
+[00:09:45] So, you can rule out a few choices already because not all of the choices have those two values.
+[00:09:52] But you can't rule them all out but one.
+[00:09:54] So, we have to go a little farther and think about the critical value t star.
+[00:09:58] Well, the number of degrees of freedom, if n is 16, would be 16 minus 2 or 14.
+[00:10:04] And the corresponding critical value, either from Table B on the formula sheet, or your calculator is 2.145.
+[00:10:11] And now we have narrowed it down to one.
+[00:10:14] Uh, the only option is choice A.
+[00:10:17] So, I hope you got that one.
+[00:10:18] What should you take away from this video?
+[00:10:21] Well, it's not too difficult to determine the margin of error when you're estimating the slope of a population regression line if you have the computer output.
+[00:10:30] You just take your t critical value times the standard error of slope.
+[00:10:34] If you don't have the computer output, it's a little more tedious because you have to calculate the sample standard deviation of the x-values as well as the standard deviation of the residuals from the sample regression line.
+[00:10:45] Once you have figured out your margin of error, the confidence interval is not hard to calculate at all.
+[00:10:51] You just take your sample slope plus or minus your margin of error that you calculated, and you have your formula for the confidence interval.
+[00:10:59] In the next video, we'll talk about how to interpret that interval and how to justify claims relating to that interval.
+[00:11:04] Thanks for tuning in.
+[00:11:06] See you next time.

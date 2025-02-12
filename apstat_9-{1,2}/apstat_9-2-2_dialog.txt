@@ -1,0 +1,78 @@
+[00:00:00] I'm Daren Starnes, coming to you from beautiful Hilton Head, South Carolina.
+[00:00:05] This is the second video for topic 9.2, Confidence Intervals for the Slope of a Regression Model.
+[00:00:11] What will you learn in this video?
+[00:00:13] Two things.
+[00:00:16] First, how do we identify an appropriate procedure for a confidence interval for the slope of a population regression line?
+[00:00:24] And, second, how do we verify conditions for calculating a confidence interval for the slope?
+[00:00:31] Hmm.
+[00:00:31] Well, let's look at a familiar example from the first two videos.
+[00:00:35] This is about predicting old faithful eruptions in 2019.
+[00:00:40] You may recall if you've seen the earlier videos, that our family took our first trip to Yellowstone in July of 1995, and were fortunate with only six hours in the park to see old faithful erupt.
+[00:00:51] My wife and I returned to the park in July of 2019 and wondered if the model used for predicting Old Faithful eruptions in the past from 1995 was still valid.
+[00:01:02] And in the first video of this unit, we use simulation to determine that the answer is no.
+[00:01:08] So we want to construct a confidence interval for the slope of the population regression line in 2019 if possible.
+[00:01:15] Well, here are the data from July of 2019.
+[00:01:18] We have a random sample of 25 eruptions and we've made a scatter plot of the duration and the wait time, and we've also calculated the sample regression line.
+[00:01:27] Uh you can notice the computer output here from a least squares regression analysis gives the same slope, 7.79, and the same y intercept, 62.95, as is shown in the equation.
+[00:01:40] So, how do we go about constructing a confidence interval?
+[00:01:44] Well, first we better check that it's okay to do so.
+[00:01:47] In the previous video we talked about the population regression model, and this visual summarizes uh what what is going on when the conditions are met for uh the population regression model.
+[00:01:59] So we have the population regression line Mu sub y equals alpha plus Beta x, and then we have these three conditions that have to be met before we perform inference for beta.
+[00:02:10] The true relationship between x and y has to be linear, not curved.
+[00:02:14] The standard deviation of the y values has to be the same, represented by these same three sigmas uh on the normal curves, and the third, for any particular value of x, the responses or y values have to be approximately normally distributed around the regression line.
+[00:02:32] When those conditions are met, we learned in the last video that the sampling distribution of the slope, b, of the sample regression line, has a shape that's approximately normal, has a center that's equal to the slope of the population regression line, Beta, and has a variability, or standard deviation, given by this complicated formula, as long as we don't sample more than 10% of the population.
+[00:02:57] So, here's what the picture of what the sampling distribution looks like when the population regression model conditions are met.
+[00:03:04] And, we define those symbols uh earlier, in a previous video, that Sigma is the standard deviation of the residuals around the population regression line, Sigma sub x is the standard deviation of x values in the population, and n is the sample size.
+[00:03:19] We had some questions left over from the previous video.
+[00:03:23] How do we check conditions about the population regression model using just the sample data you see here?
+[00:03:30] And, how can we estimate the standard deviation of the sampling distribution of the sample slope, b, using this formula, when we don't know the values of Sigma and Sigma x from the population?
+[00:03:43] Well, in terms of checking conditions, we have to first be sure that the true relationship between x and y is linear.
+[00:03:52] Looking at this scatter plot, the pattern has a linear form, not curved.
+[00:03:58] Uh, it's not very strong, but it's definitely linear in form.
+[00:04:02] We can also look at the residual plot to be sure that we see a random scatter of points about the horizontal line at zero and no clear indication of a leftover curved pattern of any sort.
+[00:04:14] So that condition is satisfied.
+[00:04:17] The standard deviation of the y values does not vary with x.
+[00:04:21] Well, it's hard to tell with so few points, um, we can look at the scatter plot and see that there's a roughly similar amount of variation around the line at all the x values, or we can magnify it on the residual plot, and we don't see any clear evidence, with so few points, that the amount of spread around this horizontal line is different.
+[00:04:42] So, we need to see clear evidence that a condition is violated before we say, "no good."
+[00:04:48] And, the third one is that, for any particular value of x, the responses, or y values, are approximately normally distributed.
+[00:04:55] Well, we need to make a graph of the residuals, uh in this case, a dot plot or maybe a histogram or something like that, uh we don't see any evidence of skewness or any clear outliers that would indicate departures from normality.
+[00:05:11] Now, if we do see strong skewness or if we see outliers, that indicate nonnormality, we need to check that our sample size is greater than 30, or we can't we can't proceed.
+[00:05:22] There are some additional conditions based on the data collection itself, that have to be met for inference.
+[00:05:28] One is that our data need to be collected using a random sample or a randomized experiment.
+[00:05:34] In this case, the data came from a random sample of 25 Old Faithful eruptions in July 2019.
+[00:05:39] So that will allow us to generalize to the population of eruptions in that month.
+[00:05:45] And, the other is, we need to be sure that we have independent observations.
+[00:05:49] So when we're sampling without replacement, we need to check that we didn't sample more than 10% of the population.
+[00:05:56] We knew that there were 262 eruptions in the month back in 1995.
+[00:06:01] So assuming that's still similar, uh 25 would be certainly less than or equal to 10% of 262.
+[00:06:10] So all of the conditions are met, which is good.
+[00:06:14] And, now, the other question that we had left unanswered was, um if the conditions are met, how do we estimate the standard deviation of the sampling distribution of the slope?
+[00:06:25] We don't know Sigma, we don't know Sigma x.
+[00:06:28] Well, maybe we can use the sample regression output to give us some information.
+[00:06:36] The sample standard deviation of the x values is .213.
+[00:06:41] And, we can use that to estimate the population standard deviation of the x values.
+[00:06:50] If we look at the residual plot, the standard deviation of the residuals for the sample regression line is given by the slightly complicated formula.
+[00:06:57] We call it s.
+[00:06:59] It's the square root of the sum of the squared residuals, divided by n minus 2.
+[00:07:04] And, that value is actually given down here in the computer output, 4.2097.
+[00:07:11] That's the size of a typical prediction error, when we use the sample regression line.
+[00:07:16] We'll use that value, s, to estimate Sigma, the deviations around the population regression line.
+[00:07:25] So we now have an answer to that second lingering question.
+[00:07:29] And, that means we're about ready to construct a confidence interval for the slope of this population regression line in 2019.
+[
+
+please continue
+
+[00:07:37] The name of that type of interval is a t-interval for the slope.
+[00:07:41] We'll get into the details of calculating it in the next video.
+[00:07:45] So, what should you take away?
+[00:07:48] Well, if you are wanting to calculate a confidence interval for the slope of a population regression line, you'd like to use a t-interval for the slope.
+[00:07:58] Why a t-interval?
+[00:07:59] Because we're estimating sigma with s.
+[00:08:03] And how do we verify the conditions?
+[00:08:05] Well, as you can see there are quite a lot of them.
+[00:08:08] Most of the verifications of those first three conditions are based on looking at graphs.
+[00:08:14] The last one is about how the data were collected.
+[00:08:18] So we'll be using these conditions as we move forward, uh and start calculating confidence intervals in the next video.
+[00:08:24] Thanks for tuning in.
+[00:08:25] See you next time.

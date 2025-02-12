@@ -1,0 +1,48 @@
+1. Which procedure is used to construct a confidence interval for the slope of a population regression line?
+A) z-interval for proportions
+B) t-interval for the slope  
+C) chi-square interval for variance
+D) bootstrap interval
+**Correct: B**
+
+2. What graphical evidence best verifies the linearity condition?
+A) Scatterplot showing random scatter
+B) Residual plot with curved pattern  
+C) Histogram of residuals
+D) Scatterplot following a straight-line pattern
+**Correct: D**
+
+3. To check constant variance condition, analysts should:
+A) Verify residuals have consistent spread across x-values
+B) Ensure sample size > 30  
+C) Check normal probability plot alignment
+D) Calculate correlation coefficient
+**Correct: A**
+
+4. What replaces σ (population SD) in the standard error formula?
+A) Sample SD of x (s_x)
+B) Residual standard error (s)  
+C) Mean squared error
+D) Standard error of the slope
+**Correct: B**
+
+5. The independence condition requires:
+A) Random sampling AND n ≤ 10% population  
+B) Normal distribution of residuals
+C) Strong correlation coefficient
+D) Equal x-value spacing
+**Correct: A**
+
+6. Which component appears in both numerator and denominator of the slope's standard error formula?
+A) Sample size (n)
+B) Residual standard error (s)  
+C) Sample SD of x (s_x)
+D) Confidence level t*
+**Correct: C**
+
+7. A valid normality check for small samples requires:
+A) Perfectly symmetric residuals
+B) No outliers in scatterplot  
+C) Randomization verification
+D) Nearly normal residuals with n < 30
+**Correct: D**

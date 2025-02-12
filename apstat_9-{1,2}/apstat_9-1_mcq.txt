@@ -1,0 +1,55 @@
+**Flashcard Set: Inference for Quantitative Data - Slopes (AP Statistics)**
+
+1. **What is the primary purpose of simulating multiple samples from the 1995 population?**  
+   a) To verify the accuracy of the 1995 data  
+   b) To create a sampling distribution of the regression slope  
+   c) To increase the sample size for 2019  
+   **Correct Answer:** b  
+
+2. **Each dot in the simulated sampling distribution represents:**  
+   a) A single eruption’s wait time  
+   b) The population slope from 1995  
+   c) A sample slope from a random sample of 25 eruptions  
+   **Correct Answer:** c  
+
+3. **If the 2019 sample slope (7.79) is far left in the simulated distribution, this suggests:**  
+   a) The 1995 population model is still valid  
+   b) The 2019 population slope likely differs from 1995  
+   c) The sample size was too small  
+   **Correct Answer:** b  
+
+4. **The simulation assumes the 2019 sample comes from a population with what slope?**  
+   a) 7.79 (2019 sample slope)  
+   b) 13.29 (1995 population slope)  
+   c) A slope of 0 (no relationship)  
+   **Correct Answer:** b  
+
+5. **What conclusion is drawn if the observed slope is outside the simulated distribution?**  
+   a) Random variation is the likely explanation  
+   b) The population model may have changed  
+   c) The relationship is nonlinear  
+   **Correct Answer:** b  
+
+6. **To test if the 1995 model applies in 2019, we compare the 2019 slope to:**  
+   a) The 1995 sample slope  
+   b) A distribution of slopes simulated under the 1995 model  
+   c) The correlation coefficient  
+   **Correct Answer:** b  
+
+7. **A slope of 7.79 in 2019 being "way off" in the simulated distribution implies:**  
+   a) High probability under the 1995 model  
+   b) Low probability under the 1995 model  
+   c) The simulation is flawed  
+   **Correct Answer:** b  
+
+8. **The simulated sampling distribution helps estimate:**  
+   a) The exact population slope  
+   b) The likelihood of observing the 2019 slope by chance  
+   c) The strength of the correlation  
+   **Correct Answer:** b  
+
+---  
+**Key Concepts Tested:**  
+- Purpose of simulation in creating sampling distributions.  
+- Interpreting whether a sample slope is consistent with a population model.  
+- Drawing conclusions based on the position of an observed slope in a simulated distribution.

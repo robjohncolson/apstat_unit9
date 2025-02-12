@@ -1,0 +1,90 @@
+[00:00:03] Hello, AP Stat students.
+[00:00:05] I'm Daren Starnes, coming to you from beautiful Hilton Head, South Carolina.
+[00:00:10] This is the first video for Topic 9.2,
+[00:00:14] Confidence Intervals for the Slope of a Regression Model.
+[00:00:17] What will you learn in this video?
+[00:00:20] Well, the biggest thing is, what conditions must the population regression model meet to obtain valid confidence intervals and significance tests for the slope?
+[00:00:31] Second, how can we determine the shape, center, and variability of the sampling distribution of the slope of a sample regression line?
+[00:00:41] Let's start by looking at an example.
+[00:00:44] Those of you who tuned in for the first video will recognize the Old Faithful Still Faithful example.
+[00:00:51] So, our family took our first trip to Yellowstone National Park in July of 1995.
+[00:00:56] We only had six hours in the park, but we were fortunately able to see the Old Faithful geyser erupt.
+[00:01:02] My wife and I returned to the park in July of 2019 and wondered if the model that was used to predict eruptions of Old Faithful was still the same as in 1995.
+[00:01:13] And in the previous video, we used simulation to determine that the answer is no.
+[00:01:20] So, the question then is, can we construct a confidence interval for the slope of the population regression line in 2019?
+[00:01:28] To answer that question, we need to understand the connection between the population regression model and the sampling distribution of the slope.
+[00:01:37] So, let's go back to 1995, where we have the entire population of eruptions for the month of July, all 262 of them are shown in the scatterplot to the right, along with the population regression model, predicted wait time is 33.34 + 13.29 * duration.
+[00:01:56] In 2019, we had a random sample of 25 eruptions.
+[00:02:01] And we've built the scatterplot along with the sample regression line, which has the equation predicted wait time = 62.95 + 7.79 * duration.
+[00:02:13] We want to use the sample regression line to make an inference about the population regression model in 2019.
+[00:02:21] And eventually, we'd like to construct a confidence interval for the slope of that population regression line.
+[00:02:27] But before we can do that, we need to think about the conditions for doing so.
+[00:02:31] So, we'll flip back to the July 1995 population, where we have all the data, and we'll imagine again taking repeated random samples of 25 observations, as we did in the first video, and each time calculating the equation of the sample regression line, ŷ = a + bx.
+[00:02:50] And the question for us is, can we determine the shape, the center, and the variability of the sampling distribution of the slope, b, of the sample regression line based on this population regression model?
+[00:03:03] We hope the answer's yes.
+[00:03:05] So, here's the simulated sampling distribution of the slope that we built in the first video.
+[00:03:10] And you can see some pretty interesting features about the shape and the center and the variability.
+[00:03:18] In fact, the shape looks to be approximately normal.
+[00:03:22] You wonder if that will happen in general, and we'll answer that.
+[00:03:25] The center of this distribution, its mean is 13.29.
+[00:03:30] And that number should look familiar.
+[00:03:33] And the variability, measured by the standard deviation is 1.10.
+[00:03:38] How are these characteristics related to the population regression model?
+[00:03:43] Well, it gets a little bit complicated.
+[00:03:46] The population regression model is of the form μy = α + βx, where μy is the mean value of the response variable y for a given value of the explanatory variable x.
+[00:04:00] And if you refer to this visual, you can see that we have three different values of the explanatory variable x shown and the population regression model μy = α + βx.
+[00:04:11] Now, confidence intervals and significance tests for the slope, β, of that population regression model have to meet some conditions.
+[00:04:19] The first is that the true relationship between x and y has to be linear, not curved.
+[00:04:27] The second is that the standard deviation of the y values has to be the same for all values of x.
+[00:04:34] And the third is that for a particular value of x, the responses, or y values are approximately normally distributed.
+[00:04:42] So, you can picture that with this visual, where you see these three normal distributions all having the same width straddling the population regression model, so they're centered on the population regression line.
+[00:04:55] So, let's go back to the data from 1995 for the population of eruptions.
+[00:05:01] Is the true relationship between x and y linear?
+[00:05:04] Well, certainly the scatterplot looks pretty linear, and it's got a moderately strong positive linear relationship, as we mentioned in the previous video.
+[00:05:13] And here's the residual plot corresponding to that population regression line, and we can see a fairly random scatter about the horizontal line with zero residual and no evidence at all of any leftover curved patterns.
+[00:05:26] So, that condition is met.
+[00:05:29] What about the second one?
+[00:05:31] The standard deviation of y does not vary with the x values.
+[00:05:35] So, as we move across the duration domain, we shouldn't see any obvious changes in the amount of variation around the line vertically.
+[00:05:46] And we don't from the scatterplot.
+[00:05:48] The wait times seem to vary by a similar amount.
+[00:05:50] Now, don't get too caught up on the few observations in the middle.
+[00:05:55] Focus on where the body of observations mainly is.
+[00:05:58] Or we can look at the residual plot, which magnifies those deviations from the line, and we can see that the rough spread around the line is similar as you move across the domain.
+[00:06:09] So, that condition is considered met.
+[00:06:12] And finally, for a particular value of x, the responses are approximately normally distributed.
+[00:06:17] Well, you really can't see that from this scatterplot.
+[00:06:20] So, instead, we make a graph of the residuals themselves, that is, the prediction errors from the population model, and we can see a roughly symmetric, somewhat bell-shaped, and single-peaked graph that suggests approximate normality.
+[00:06:37] So, everything's looking good.
+[00:06:39] So, when those conditions are met, the sampling distribution of the slope has an approximately normal shape like the one we saw earlier.
+[00:06:48] The center at the true slope of the population regression line.
+[00:06:52] And the variability given by this formula.
+[00:06:55] The standard deviation of that sampling distribution should be equal to, well, σ, which is the standard deviation of the residuals for this population regression line, the one that stays constant for all x values, divided by σx times the square root of n.
+[00:07:10] So, for this population of data, σ = 6.47.
+[00:07:15] σx is the standard deviation of the values in the x direction around their mean.
+[00:07:22] So, that happens to be 1.18.
+[00:07:30] And n is the sample size, so that's going to be 25.
+[00:07:32] We took samples of 25 eruptions.
+[00:07:35] So, let's run the numbers.
+[00:07:37] The sampling distribution of the slope of the sample regression line for July of 1995, the shape is approximately normal.
+[00:07:45] The center is 13.29, as advertised.
+[00:07:48] And using the formula, the standard deviation is, look at that, 1.10.
+[00:07:53] Those were the numbers that we provided before.
+[00:07:56] Now, there's one little catch on the variability.
+[00:07:58] We do need to check, since we're sampling without replacement, that the sample size is no more than 10% of the population size.
+[00:08:06] So, here we had 25 eruptions out of the 262 available, and that is less than or equal to 10%.
+[00:08:14] So, as we go back to 2019, here's the sample data with the scatterplot and the sample regression line.
+[00:08:21] The question is, can we construct a confidence interval for the slope of the population regression line in 2019?
+[00:08:29] Well, I guess we need to figure out how we're going to check the conditions about the population regression model for 2019 using only the sample data that we have here.
+[00:08:40] That's not quite the same situation as we had in 1995.
+[00:08:45] And another little problem, how can we estimate the standard deviation of the sampling distribution of the sample slope, b, when we don't know the values of σ, the population standard deviation of residuals, or σx, the population standard deviation of x values?
+[00:09:03] Those are two pretty big issues, and we'll be addressing them in the next video.
+[00:09:08] So, what should you take away for now?
+[00:09:10] Well, the conditions that the population regression model has to meet to obtain valid confidence intervals and significance tests for the slope are these three.
+[00:09:18] True relationship linear.
+[00:09:21] The standard deviation of the y values does not vary with x, and for any x value in the domain, the responses are approximately normally distributed.
+[00:09:31] The shape, center, and variability of the sampling distribution of the slope will have these characteristics when the conditions are met, an approximately normal shape, the center at the true slope of the population regression line, and the variability given by this formula.
+[00:09:46] So, this one was tough.
+[00:09:47] Thank you for sticking with me.
+[00:09:50] In the next video, we will connect that to the sample data for 2019.
+[00:09:55] See you then.

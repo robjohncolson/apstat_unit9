@@ -1,0 +1,1 @@
+Take a close look at this and create a detailed mind map of every concept covered, every equation, every decision.  Export this mindmap as a JSON, so that it is easy to parse by another LLM.

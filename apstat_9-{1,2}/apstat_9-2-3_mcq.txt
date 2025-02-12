@@ -1,0 +1,55 @@
+Flashcard 1
+What is the correct formula for a confidence interval for slope β?
+A) b ± z(SE_b)
+B) b ± t(SE_b)
+C) β ± t(SE_b)
+Correct Answer: B
+---
+Flashcard 2
+Degrees of freedom for t-distribution in slope CI comes from:
+A) n-1
+B) n-2
+C) Sample size
+Correct Answer: B
+---
+Flashcard 3
+What does SE_b represent?
+A) Variability of x-values
+B) Standard error of slope estimate
+C) Residual standard deviation
+Correct Answer: B
+---
+Flashcard 4
+For 95% CI with 23 df, the critical t is:
+A) 1.714
+B) 2.069
+C) 2.797
+Correct Answer: B
+---
+Flashcard 5
+Which values are needed to calculate SE_b?
+A) s, s_x, n
+B) r, s_y, n
+C) β, σ, n
+Correct Answer: A
+---
+Flashcard 6
+A 95% CI of (-0.55, 16.13) for slope suggests:
+A) Positive relationship significant
+B) No significant relationship
+C) Negative relationship
+Correct Answer: B (CI includes 0)
+---
+Flashcard 7
+Wider intervals result from:
+A) Larger sample size
+B) Higher confidence level
+C) Smaller residual SD
+Correct Answer: B
+---
+Flashcard 8
+What does s represent in SE_b formula?
+A) SD of x-values
+B) SD of residuals
+C) SD of slope
+Correct Answer: B

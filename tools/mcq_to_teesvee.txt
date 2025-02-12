@@ -1,0 +1,5 @@
+Analyze the attached CSV template, then create a comprehensive, single, complete TSV in similar form, using the flashcard questions I've inputted. Except for formatting, please do not modify the content of the questions or answers of the flashcards I've attached to this conversation. Faithfully convert into a TSV.
+
+Please examine the CSV, and ensure that the questions are formatted in a matter that complies to the structure within the csv.  However, instead of formatting your resulting output as a csv, instead out in TSV format.
+
+I want you to repeat your process with subsequent dialogs which will be attached.

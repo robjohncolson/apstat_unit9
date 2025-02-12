@@ -1,0 +1,55 @@
+Flashcard 1
+What three conditions must be met for valid confidence intervals in linear regression?
+A) Linear relationship, constant variance, normal residuals
+B) Random sample, large population, independent observations
+C) Curved relationship, increasing variance, skewed residuals
+Correct Answer: A
+---
+Flashcard 2
+Which graphical tool best verifies the linearity condition?
+A) Scatterplot of raw data
+B) Residual plot
+C) Histogram of x-values
+Correct Answer: B
+---
+Flashcard 3
+In the Old Faithful example, what indicated constant variance?
+A) Similar residual spread across duration values
+B) Normal distribution of eruption times
+C) High R-squared value
+Correct Answer: A
+---
+Flashcard 4
+The sampling distribution of the slope (b) is centered at:
+A) The sample slope
+B) The population slope (β)
+C) Always zero
+Correct Answer: B
+---
+Flashcard 5
+Which formula calculates the SD of the slope's sampling distribution?
+A) σ/(σₓ√n)
+B) σₓ/(σ√n)
+C) √(σ² + σₓ²)/n
+Correct Answer: A
+---
+Flashcard 6
+What indicates normality of residuals?
+A) Bell-shaped residual histogram
+B) Straight line in scatterplot
+C) Small p-value
+Correct Answer: A
+---
+Flashcard 7
+Why check sample size ≤10% population?
+A) Ensure independent observations
+B) Increase confidence level
+C) Validate linear relationship
+Correct Answer: A
+---
+Flashcard 8
+In 2019 analysis, what's unknown compared to 1995?
+A) Population σ and σₓ
+B) Sample regression equation
+C) Residual distribution shape
+Correct Answer: A
