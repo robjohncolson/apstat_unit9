@@ -119,3 +119,5 @@ Link: https://drive.google.com/file/d/1FcZcPYSLBXLkfBkpkyTfAWQ6tR_WxZ6o/view?usp
 2025-02-11 19:26:44,160 - ERROR - Error moving file to processed folder: (32, 'MoveFile', 'The process cannot access the file because it is being used by another process.')
 2025-02-11 19:26:44,160 - WARNING - Could not move file to processed folder - it may be in use. Will try again later.
 2025-02-11 19:27:14,183 - INFO - Moved Screen Recording 2025-02-11 191629.mp4 to C:\Users\ColsonR\Videos\Screen Recordings\Uploaded Videos
+2025-02-11 20:45:16,398 - INFO - Received signal 2
+2025-02-11 20:45:16,398 - INFO - Shutting down video monitor...
