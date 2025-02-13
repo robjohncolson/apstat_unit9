@@ -1,0 +1,34 @@
+1. Which condition is verified using a residual plot?
+a) Linear relationship  
+b) Random sampling
+c) Normality of responses
+d) 10% population rule
+✓ Correct: a
+
+2. What does the "n-2" degrees of freedom represent?
+a) Total data points minus parameters estimated  
+b) Number of failed conditions
+c) Confidence level adjustment
+d) Slope and intercept terms
+✓ Correct: a
+
+3. If p-value < α (0.01), what conclusion is appropriate?
+a) Fail to reject H₀  
+b) Reject H₀ in favor of positive relationship  
+c) Accept Hₐ without evidence
+d) Results are inconclusive
+✓ Correct: b
+
+4. Which check ensures independence?
+a) Random sample of 11 students  
+b) Residual histogram shape
+c) Scatterplot linear pattern
+d) Similar residual spread
+✓ Correct: a
+
+5. What does "β > 0" specifically indicate?
+a) Sample correlation is positive
+b) Population slope is positive  
+c) All students show improvement
+d) Attendance causes higher scores
+✓ Correct: b

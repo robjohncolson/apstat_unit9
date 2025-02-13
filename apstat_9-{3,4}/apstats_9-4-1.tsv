@@ -1,0 +1,6 @@
+Question #	Question Text	Answer 1	Answer 2	Answer 3	Answer 4	Time Limit (sec)	Correct Answer(s)
+1	What is the correct null hypothesis for testing the relationship between attendance and test scores?	b = 0 (sample slope is zero)	β = 0 (population slope is zero)	r = 0 (correlation is zero)	μ = 0 (mean difference is zero)	30	2
+2	The alternative hypothesis β > 0 suggests:	No linear relationship exists	A positive population slope	Sample data shows increasing pattern	All students have higher scores	30	2
+3	Why was a two-sided test used for the spillage experiment?	Researchers expected both directions	No direction specified initially	Data showed mixed results	Sample size was too small	30	2
+4	Which scenario requires β ≠ 0 in Ha?	Testing any linear relationship	Expecting positive correlation	Checking for perfect correlation	Comparing two regression lines	30	1
+5	When should researchers choose Ha?	After seeing the scatterplot	Before collecting data	When calculating t-statistic	Based on p-value magnitude	30	2

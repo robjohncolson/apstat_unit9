@@ -1,0 +1,6 @@
+Question #	Question Text	Answer 1	Answer 2	Answer 3	Answer 4	Time Limit (sec)	Correct Answer(s)
+1	What critical t-value is used for a 95% CI with 18 degrees of freedom?	1.960	2.101	2.086	2.093	30	2
+2	The interval (-2.471, -1.845) suggests for each mile from city center:	Price increases $1,845-$2,471	Price decreases $1,845-$2,471	95% of homes fall in this price range	No relationship exists	30	2
+3	Why was df=18 used?	20 data points total	n-2 for regression inference	Table B requires even numbers	95% confidence level	30	2
+4	If the CI had included zero, this would suggest:	Price increases with distance	No linear relationship exists	Agent's claim is confirmed	Sample size was too small	30	2
+5	The "95% confidence" means:	95% of slopes match our interval	Method captures true slope 95% of time	Probability slope is in interval	95% of data within interval	30	2

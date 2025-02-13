@@ -1,0 +1,26 @@
+Blooket Import Template,,,,,,,,,,,,,,,,,,,,,,
+Question #,Question Text,Answer 1,Answer 2,"Answer 3
+(Optional)","Answer 4
+(Optional)","Time Limit (sec)
+(Max: 300 seconds)","Correct Answer(s)
+(Only include Answer #)",,,,,,,,,,,,,,,
+1,What is the correct interpretation of a 95% confidence interval for the slope of a population regression line?,95% of sample slopes will fall within this interval,We're 95% confident the interval contains the true population slope,There's a 95% probability the true slope is in this interval,95% of data points lie within this slope range,30,2,,,,,,,,,,,,,,,
+2,"If a confidence interval for slope includes zero, what does this suggest?",Strong evidence of a linear relationship,No evidence of a linear relationship,The sample size was too small,The correlation is exactly zero,30,2,,,,,,,,,,,,,,,
+3,"For Raoul's propeller experiment (CI: 0.013 to 0.080), which conclusion is valid?",No relationship between rotations and flight time,Evidence of positive linear relationship,Negative correlation exists,95% of flights lasted between 0.013-0.080 seconds,30,2,,,,,,,,,,,,,,,
+4,How should we interpret the Old Faithful CI (-0.55 to 16.13)?,Duration perfectly predicts wait time,Wait time decreases as duration increases,No conclusive linear relationship exists,95% of eruptions follow this pattern,30,3,,,,,,,,,,,,,,,
+5,What does the confidence level (95%) refer to?,Percentage of data in the interval,Success rate of interval capture method,Probability about specific interval,Accuracy of slope estimate,30,2,,,,,,,,,,,,,,,
+6,What critical t-value is used for a 95% CI with 18 degrees of freedom?,1.960,2.101,2.086,2.093,30,2,,,,,,,,,,,,,,,
+7,"The interval (-2.471, -1.845) suggests for each mile from city center:","Price increases $1,845-$2,471","Price decreases $1,845-$2,471",95% of homes fall in this price range,No relationship exists,30,2,,,,,,,,,,,,,,,
+8,Why was df=18 used?,20 data points total,n-2 for regression inference,Table B requires even numbers,95% confidence level,30,2,,,,,,,,,,,,,,,
+9,"If the CI had included zero, this would suggest:",Price increases with distance,No linear relationship exists,Agent's claim is confirmed,Sample size was too small,30,2,,,,,,,,,,,,,,,
+10,"The ""95% confidence"" means:",95% of slopes match our interval,Method captures true slope 95% of time,Probability slope is in interval,95% of data within interval,30,2,,,,,,,,,,,,,,,
+11,What is the correct null hypothesis for testing the relationship between attendance and test scores?,b = 0 (sample slope is zero),β = 0 (population slope is zero),r = 0 (correlation is zero),μ = 0 (mean difference is zero),30,2,,,,,,,,,,,,,,,
+12,The alternative hypothesis β > 0 suggests:,No linear relationship exists,A positive population slope,Sample data shows increasing pattern,All students have higher scores,30,2,,,,,,,,,,,,,,,
+13,Why was a two-sided test used for the spillage experiment?,Researchers expected both directions,No direction specified initially,Data showed mixed results,Sample size was too small,30,2,,,,,,,,,,,,,,,
+14,Which scenario requires β ≠ 0 in Ha?,Testing any linear relationship,Expecting positive correlation,Checking for perfect correlation,Comparing two regression lines,30,1,,,,,,,,,,,,,,,
+15,When should researchers choose Ha?,After seeing the scatterplot,Before collecting data,When calculating t-statistic,Based on p-value magnitude,30,2,,,,,,,,,,,,,,,
+16,Which condition is verified using a residual plot?,Linear relationship,Random sampling,Normality of responses,10% population rule,30,1,,,,,,,,,,,,,,,
+17,"What does the ""n-2"" degrees of freedom represent?",Total data points minus parameters estimated,Number of failed conditions,Confidence level adjustment,Slope and intercept terms,30,1,,,,,,,,,,,,,,,
+18,"If p-value < α (0.01), what conclusion is appropriate?",Fail to reject H₀,Reject H₀ in favor of positive relationship,Accept Hₐ without evidence,Results are inconclusive,30,2,,,,,,,,,,,,,,,
+19,Which check ensures independence?,Random sample of 11 students,Residual histogram shape,Scatterplot linear pattern,Similar residual spread,30,1,,,,,,,,,,,,,,,
+20,"What does ""β > 0"" specifically indicate?",Sample correlation is positive,Population slope is positive,All students show improvement,Attendance causes higher scores,30,2,,,,,,,,,,,,,,,
