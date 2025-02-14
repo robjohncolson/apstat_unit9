@@ -1,6 +1,0 @@
-Question Text	Answer 1	Answer 2	Answer 3	Answer 4	Time Limit (sec)	Correct Answer(s)
-What is the correct interpretation of a 95% confidence interval for the slope of a population regression line?	95% of sample slopes will fall within this interval	We're 95% confident the interval contains the true population slope	There's a 95% probability the true slope is in this interval	95% of data points lie within this slope range	30	2
-If a confidence interval for slope includes zero, what does this suggest?	Strong evidence of a linear relationship	No evidence of a linear relationship	The sample size was too small	The correlation is exactly zero	30	2
-For Raoul's propeller experiment (CI: 0.013 to 0.080), which conclusion is valid?	No relationship between rotations and flight time	Evidence of positive linear relationship	Negative correlation exists	95% of flights lasted between 0.013-0.080 seconds	30	2
-How should we interpret the Old Faithful CI (-0.55 to 16.13)?	Duration perfectly predicts wait time	Wait time decreases as duration increases	No conclusive linear relationship exists	95% of eruptions follow this pattern	30	3
-What does the confidence level (95%) refer to?	Percentage of data in the interval	Success rate of interval capture method	Probability about specific interval	Accuracy of slope estimate	30	2

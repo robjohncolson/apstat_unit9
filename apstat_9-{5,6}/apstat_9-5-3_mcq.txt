@@ -1,0 +1,55 @@
+13. What hypotheses were tested for non-completers' GPA vs credit hours?
+A) H₀: β=0 vs Hₐ: β≠0
+B) H₀: β≥0 vs Hₐ: β<0
+C) H₀: μ=0 vs Hₐ: μ≠0
+D) H₀: r=0 vs Hₐ: r≠0
+Correct: A
+
+14. For n=7 non-completers, degrees of freedom were:
+A) 5
+B) 6
+C) 7
+D) 20
+Correct: A
+
+15. With t=-3.44 and p=0.018 (α=0.01), we:
+A) Fail to reject H₀
+B) Reject H₀
+C) Accept Hₐ
+D) Prove H₀
+Correct: A
+
+16. Completers showed stronger evidence because:
+A) p≈0.000 < 0.018
+B) t=8.49 > -3.44
+C) n=13 > 7
+D) α=0.01 < 0.05
+Correct: A
+
+17. A p-value of 0.018 means:
+A) 1.8% chance of extreme results if H₀ true
+B) 98.2% chance Hₐ is true
+C) 1.8% effect size
+D) 98.2% confidence interval
+Correct: A
+
+18. For 7 non-completers, df calculation was:
+A) 7 - 2
+B) 7 - 1
+C) 20 - 2
+D) √7
+Correct: A
+
+19. The t-statistic measures:
+A) (b - 0)/SE_b
+B) r² variation
+C) Mean difference
+D) Residual SD
+Correct: A
+
+20. Failing to reject H₀ implies:
+A) No linear relationship shown
+B) Relationship exists
+C) Sample was biased
+D) H₀ is definitely true
+Correct: A

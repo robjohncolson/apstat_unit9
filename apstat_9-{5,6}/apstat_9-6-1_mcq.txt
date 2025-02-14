@@ -1,0 +1,55 @@
+21. What type of data requires a chi-square test?
+A) Two categorical variables
+B) One quantitative variable
+C) Paired measurements
+D) Regression slope
+Correct: A
+
+22. For comparing defect rates between paired ovens:
+A) Paired t-test
+B) Two-sample t-test
+C) ANOVA
+D) Chi-square
+Correct: A
+
+23. Which procedure tests H₀: β=0?
+A) t-test for slope
+B) z-test for proportion
+C) Chi-square goodness-of-fit
+D) One-sample t-test
+Correct: A
+
+24. Birth month vs political party requires:
+A) Chi-square independence
+B) Two-proportion z-test
+C) Linear regression
+D) ANOVA
+Correct: A
+
+25. Conditions for slope inference include:
+A) Linear trend, residuals normal
+B) Random assignment
+C) Success/failure ≥10
+D) Equal variances
+Correct: A
+
+26. For estimating a population proportion:
+A) One-sample z interval
+B) Two-sample t interval
+C) Chi-square interval
+D) Slope confidence interval
+Correct: A
+
+27. Standard error formula appears in:
+A) Both CI and test statistics
+B) Only confidence intervals
+C) Only hypothesis tests
+D) Neither formula
+Correct: A
+
+28. When comparing two independent means:
+A) Two-sample t-test
+B) Paired t-test
+C) One-proportion z-test
+D) Chi-square homogeneity
+Correct: A

@@ -1,0 +1,113 @@
+[00:00:00] Introduction
+
+"Hello, AP stats students. I'm Darren Starnes, coming to you from beautiful Hilton Head, South Carolina. This is video 3 in topic 9.5, carrying out a test for the slope of a regression model."
+
+[00:00:14] What Will You Learn?
+
+"What will you learn in this video? Well, we're going to go through a complete significance test about the slope of a population regression line, using everything you've learned to this point."
+
+[00:00:25] Let's Practice
+
+"Let's practice."
+
+The speaker introduces a modified version of question 6 from the 2001 AP Statistics exam.
+
+[00:00:35] Exam Question Scenario
+
+The Statistics Department at a large university is trying to predict whether applicants will successfully complete a Ph.D. program.
+
+They are considering GPA (grade point average) in undergraduate statistics and mathematics courses (a measure of performance) and mean credit hours per semester (a measure of workload) as potential predictors.
+
+A random sample of 20 entering students from the past 5 years is taken.
+
+[00:01:09] Data Tables
+
+Data is presented for 13 students who successfully completed the Ph.D. program (Students A-M).
+
+Data is presented for 7 students who did not complete the Ph.D. program (Students N-T).
+
+Both tables show GPA and Credit Hours.
+
+[00:01:21] Regression Output (Did Not Complete Ph.D.)
+
+Regression output is shown for the 7 students who did not complete the Ph.D. program.
+
+The residual plot (not shown) indicated no unusual patterns, and assumptions for inference were judged reasonable.
+
+The output table will be used for the test.
+
+[00:01:44] Part (a) of the Question
+
+"For the students who did not complete the Ph.D. program, is there a significant relationship between GPA and mean number of credit hours per semester at the alpha = 0.01 level?"
+
+The speaker suggests pausing the video to attempt a solution.
+
+[00:02:12] Model Solution for Part (a) - Stating Hypotheses
+
+H0 (Null Hypothesis): β = 0 (No linear relationship)
+
+Ha (Alternative Hypothesis): β ≠ 0 (There is a linear relationship)
+
+Where β is: the slope of the population regression line for predicting mean number of credit hours per semester from GPA for students who did not complete the statistics Ph.D. program at this large university.
+
+The speaker notes that although the question doesn't specify linear, that is the only possible relationship being talked about.
+
+[00:03:14] Significance Level and Procedure
+
+α = 0.01
+
+Procedure: t-test for slope. Conditions are met.
+
+[00:03:31] Calculations
+
+The t-statistic from the computer output is -3.44.
+
+Because Ha: β ≠ 0, this is a two-tailed test. We need to find P(t ≤ -3.44) + P(t ≥ 3.44).
+
+Degrees of freedom (df) = 7 - 2 = 5
+
+The p-value = 0.018
+
+[00:04:18] Conclusion
+
+Because the p-value (0.018) > α (0.01), we fail to reject the null hypothesis (H0).
+
+"There is not convincing evidence of a linear relationship between GPA and mean number of credit hours in the population of students at this university who did not complete the statistics Ph.D. program."
+
+[00:04:46] Part (b) of the Question
+
+New regression output is shown, this time for the 13 students who did successfully complete the Ph.D. program.
+
+The residual plot (not shown) again indicated no unusual patterns and reasonable assumptions.
+
+"For the students who successfully completed the Ph.D. program, is the evidence for a significant (linear) relationship between GPA and mean number of credit hours per semester stronger or weaker than for the students who did not complete the Ph.D. program? Justify your answer."
+
+The speaker notes it's not necessary to carry out a full significance test for part (b); the computer output provides enough information. He encourages pausing again.
+
+[00:05:48] Model Solution for Part (b)
+
+"Stronger."
+
+The p-value for the test of H0: β = 0 vs. Ha: β ≠ 0 (using the same definition of β as before, but now for successful students) is approximately 0.000.
+
+This p-value is smaller than the 0.018 p-value from part (a), and thus gives stronger evidence of a significant relationship between GPA and mean number of credit hours per semester.
+
+The speaker explains that you can come to the same answer by comparing the t-statistic, which is more extreme in the second case.
+
+[00:06:54] Key Takeaways
+
+The steps of a complete significance test for the slope of a population regression line:
+
+State the null and alternative hypotheses, and define the parameter.
+
+Give the significance level.
+
+Identify the procedure (t-test for slope).
+
+Verify the conditions.
+
+Calculate the test statistic and p-value.
+
+Make a conclusion based on the p-value (don't interpret the p-value unless specifically asked).
+
+The video emphasizes how to correctly perform a full significance test, to interpret a t-test, to work with p-values, and how to address exam questions.

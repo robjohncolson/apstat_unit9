@@ -1,0 +1,69 @@
+1. What is the correct null hypothesis for testing a regression slope?
+A) β = 0  
+B) β > 0  
+C) β < 0  
+D) β ≠ 0  
+Correct: A  
+
+2. A t-statistic of 9.18 with p ≈ 0 suggests:  
+A) Strong evidence against H₀  
+B) Weak evidence against H₀  
+C) Evidence for H₀  
+D) Inconclusive results  
+Correct: A  
+
+3. For n=11 data points, slope test degrees of freedom are:  
+A) 9  
+B) 10  
+C) 11  
+D) 12  
+Correct: A  
+
+4. A p-value of 1.52e-8 in a two-tailed test means:  
+A) Extremely unlikely under H₀  
+B) Likely sampling error  
+C) Supports H₀  
+D) Requires larger alpha  
+Correct: A  
+
+5. What's needed to calculate the t-statistic?  
+A) b, β₀, SE_b  
+B) r, SE_r  
+C) n, df  
+D) α, β  
+Correct: A  
+
+6. For computer output showing two-tailed p-value:  
+A) Halve it for one-tailed tests  
+B) Double it for one-tailed tests  
+C) Use as-is  
+D) Take reciprocal  
+Correct: A  
+
+7. Rejecting H₀ in the drink study suggests:  
+A) Speed affects spillage  
+B) No relationship exists  
+C) Results are inconclusive  
+D) Sample was biased  
+Correct: A  
+
+8. A positive sample slope (b=0.57) provides:  
+A) Evidence for Ha: β > 0  
+B) Evidence for H₀  
+C) Proof of causation  
+D) Margin of error  
+Correct: A  
+
+9. The p-value measures:  
+A) Chance of extreme results if H₀ true  
+B) Probability H₀ is false  
+C) Effect size magnitude  
+D) Sampling bias risk  
+Correct: A  
+
+10. Failing to reject H₀ means:  
+A) No convincing evidence  
+B) H₀ is true  
+C) Ha is false  
+D) Study was flawed  
+Correct: A  

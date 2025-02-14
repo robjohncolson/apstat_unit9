@@ -1,0 +1,84 @@
+1. What is the null hypothesis in a test for the slope of a regression line?
+A) β = 0
+B) β > 0
+C) β < 0
+D) β ≠ 0
+Correct: A
+
+2. What is the formula for the t-statistic in a slope test?
+A) (b - β₀)/SE_b
+B) (β₀ - b)/SE_b
+C) b/SE_b
+D) β₀/SE_b
+Correct: A
+
+3. For a sample size of 11, what are the degrees of freedom in a slope test?
+A) 9
+B) 10
+C) 11
+D) 12
+Correct: A
+
+4. How is the p-value calculated in a one-sided slope test?
+A) P(t ≥ observed t)
+B) P(t ≤ observed t)
+C) 2*P(t ≥ |observed t|)
+D) P(t = observed t)
+Correct: A
+
+5. What does a positive sample slope suggest about the relationship?
+A) Evidence for Ha
+B) Evidence for H0
+C) No relationship
+D) Negative relationship
+Correct: A
+// ... existing questions 1-5 ...
+
+6. When using computer output for a one-sided test, what should you do with
+A) Halve the two-tailed p-value
+B) Double the one-tailed p-value
+C) Use p-value directly
+D) Subtract from 1
+Correct: A
+
+7. For a two-sided test with t=8.49 and df=23, the p-value is:
+A) 2*P(t ≥ 8.49)
+B) P(t ≥ 8.49)
+C) P(t ≤ 8.49)
+D) 2*P(t ≤ 8.49)
+Correct: A
+
+8. What does a t-statistic of 9.18 suggest about H₀?
+A) Strong evidence against
+B) Weak evidence against
+C) Supports H₀
+D) Inconclusive
+Correct: A
+
+9. In the drink spill study, the slope represents:
+A) ML spill per mph increase
+B) MPH per ml spilled
+C) Base spill amount
+D) Random variation
+Correct: A
+
+10. When computer output shows a two-sided p-value of 7.26e-6, the one-sided value is:
+A) 3.63e-6
+B) 7.26e-6
+C) 1.45e-5
+D) 0.0005
+Correct: A
+
+11. For n=25 data points, slope test df equals:
+A) 23
+B) 24
+C) 25
+D) 26
+Correct: A
+
+12. Which distribution is used for slope tests?
+A) t with n-2 df
+B) z with n-1 df
+C) χ² with n-2 df
+D) F with 1,n df
+Correct: A
