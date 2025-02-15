@@ -1,0 +1,46 @@
+Question #	Question Text	Answer 1	Answer 2	Answer 3	Answer 4	Time Limit (sec)	Correct Answer(s)
+1	What is the primary purpose of simulating sample slopes in regression analysis?	To calculate the population mean	To visualize the sampling distribution of the slope	To verify linearity condition	To determine residual values	30	2
+2	Which three conditions must be verified for inference about slopes?	Linearity, Normality, Randomness	Equal Variance, Linearity, 10% Condition	Linearity, Equal Variance, Normality of Residuals	Independence, Randomness, Normality of x-values	40	3
+3	The center of the sampling distribution of b (sample slope) is:	Always 0	The population slope β	The mean of x-values	The mean of y-values	25	2
+4	A 95% confidence interval for slope is (-0.15, 0.08). This suggests:	Positive relationship exists	Negative relationship exists	No convincing evidence of linear relationship	Non-normal residuals	40	3
+5	Which formula calculates the test statistic for slope significance?	(b - β)/SE(b)	(x̄ - μ)/(s/√n)	(p̂ - p)/√(p(1-p)/n)	(observed - expected)/√expected	50	1
+6	What does the standard error of the slope (SE(b)) estimate?	Variability in x-values	Standard deviation of the sampling distribution of b	Mean residual value	Population y-intercept	30	2
+7	For a t-test on slope, degrees of freedom equals:	n-1	n-2	Number of predictors	Always 30	25	2
+8	Which plot best checks the equal variance condition?	Histogram of residuals	Scatterplot of x vs y	Residual plot against x	QQ-plot of residuals	40	3
+9	If a 90% CI for slope contains 0, the p-value for H₀: β=0 would be:	< 0.10	> 0.10	Exactly 0.10	Cannot determine	45	2
+10	Which alternative hypothesis suggests a negative relationship?	Hₐ: β ≠ 0	Hₐ: β > 0	Hₐ: β < 0	Hₐ: b ≠ 0	25	3
+11	What does s represent in SE(b) formula?	Sample standard deviation of x	Sample standard deviation of y	Standard error of estimate	Standard deviation of residuals	30	4
+12	Which procedure would test for a linear relationship between two quantitative variables?	Chi-square test	Two-sample t-test	t-test for slope	One-proportion z-test	40	3
+13	A p-value of 0.03 in slope test (α=0.05) leads to:	Reject H₀, evidence of relationship	Fail to reject H₀, no evidence	Accept Hₐ, proven relationship	Inconclusive results	30	1
+14	Which condition is verified with a residual histogram?	Linearity	Equal Variance	Normality of Residuals	Randomness	40	3
+15	What's the correct interpretation of 95% confidence level?	95% probability β is in the interval	95% of slopes will be in the interval	95% of intervals from repeated samples will contain β	95% of data points fall within the interval	50	3
+16	In the Old Faithful example, what conclusion was drawn when the 2019 sample slope (7.79) fell outside the simulated sampling distribution?	The 1995 model remains valid	Random variation explains the difference	2019 shows stronger relationship	1995 model isn't valid for 2019	40	4
+17	Which residual analysis checks the normality condition for slope inference?	Scatterplot of x vs y	Histogram of residuals	Residual plot against predicted values	QQ-plot of x-values	30	2
+18	When calculating SE(b), what does 's' represent in the formula SE(b) = s/(s_x√n)?	Sample SD of x	Sample SD of residuals	Population SD of y	Standard error of mean	40	2
+19	A 95% CI for slope β is (-1.2, 3.4). How should we interpret this regarding linear relationship?	Evidence of positive relationship	Evidence of negative relationship	No evidence against β=0	Non-linear relationship confirmed	50	3
+20	For the Texas school attendance example, what would H₀: β=0 suggest?	Attendance affects test scores	No attendance-test score relationship	Negative correlation exists	Data collection was flawed	30	2
+21	Which procedure analyzes political affiliation vs birth month?	t-test for slope	Chi-square test for independence	Paired t-test	One-proportion z-test	45	2
+22	What's the DF for t-test on slope with n=20 pairs?	18	19	20	21	25	1
+23	Which condition is verified by random scatter in residual plot?	Normality	Linearity	Equal Variance	Independence	40	2
+24	If computer output shows b=2.5 and SE(b)=0.8 with n=30, what's the test statistic for H₀: β=0?	2.5/0.8	0.8/2.5	2.5/(0.8√30)	(2.5-0)/0.8	50	4
+25	Which scenario requires paired t-test?	Comparing defect rates from two ovens hourly	Testing political affiliation vs birth month	Analyzing GPA vs PhD completion	Testing car speed vs drink spillage	45	1
+26	What's the correct interpretation of t=3.14, p=0.002 in slope test?	0.2% chance H₀ is true	0.2% chance of getting b=0 if H₀ true	0.2% chance of observing t≥3.14 if H₀ true	99.8% confidence β≠0	50	3
+27	Which factor does NOT affect CI width for slope?	Sample size	Confidence level	Residual SD	Mean of x-values	30	4
+28	For Ph.D. completion analysis, comparing t-statistics from two groups shows:	Which relationship is stronger	Which sample size was larger	Which had normal residuals	Which data was more linear	55	1
+29	What's missing from this interpretation: "We're 95% confident the slope is between 1.2-3.4"?	Contextual reference	Confidence level justification	Random sampling mention	All of the above	40	1
+30	Which is NOT required for t-test on slope?	Linear scatterplot pattern	Normally distributed x-values	Random sampling	Approximately normal residuals	30	2
+31	In the Old Faithful simulation (9.1), what does the position of the 2019 sample slope (7.79) in the simulated distribution indicate?	Supports 1995 model's validity	Suggests random sampling error	Requires larger sample size	Indicates model invalidity for 2019	40	4
+32	Which three residual analyses verify conditions for slope inference?	Scatterplot, residual histogram, QQ-plot	Residual plot, x-value histogram, scatterplot	Scatterplot, residual plot, residual histogram	QQ-plot of x-values, residual plot, scatterplot	50	3
+33	For n=20 houses in the AP real estate example (9.3.2), what's the critical t for 95% CI?	1.725	2.086	2.093	2.845	30	2
+34	In the Texas school hypothesis test (9.4), what does H₀: β=0 imply?	Attendance improves scores	No attendance-score relationship	Negative correlation exists	Sample was biased	25	2
+35	Which formula correctly calculates the t-statistic for slope?	(b - β)/SE(b)	(x̄ - μ)/(s/√n)	(b - 0)/s	β/SE(b)	55	1
+36	A residual plot shows funnel-shaped pattern. Which condition is violated?	Linearity	Normality	Equal Variance	Independence	40	3
+37	In the Ph.D. completion analysis (9.5.3), comparing t-statistics of two groups shows:	Which relationship is stronger	Which sample was larger	Which had normal residuals	Which data collection was better	60	1
+38	Which procedure analyzes oven defect rates measured hourly?	Two-sample t-test	Chi-square test	Paired t-test	Slope test	50	3
+39	Computer output shows b=2.1, SEb=0.5, n=25. What's the 90% CI?	2.1 ± 1.645(0.5)	2.1 ± 1.714(0.5)	2.1 ± 1.711(0.5)	2.1 ± 2.064(0.5)	75	3
+40	Which interpretation correctly states confidence level meaning?	"95% chance β is in our interval"	"95% of slopes match our interval"	"95% of samples yield containing intervals"	"95% of data points within interval"	55	3
+41	For political affiliation vs birth month analysis (9.6), which test is appropriate?	t-test for slope	Chi-square test	Paired t-test	One-proportion z-test	40	2
+42	What's the DF for slope test with n=15 data pairs?	12	13	14	15	25	2
+43	Which condition requires normal residual distribution?	Linearity	Equal Variance	Normality	Randomness	30	3
+44	In the drink-spilling study (9.4), what would Ha: β>0 indicate?	Faster speed reduces spilling	Speed doesn't affect spilling	Faster speed increases spilling	Non-linear relationship	40	3
+45	Which value in SE(b) = s/(sₓ√n) represents residual variability?	s	sₓ	n	√n	30	1

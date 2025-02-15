@@ -1,0 +1,694 @@
+{
+    "name": "AP Statistics Unit 9: Inference for Quantitative Data - Slopes",
+    "children": [
+      {
+        "name": "9.1 Introducing Statistics - Do Those Points Align?",
+        "children": [
+          {
+            "name": "Learning Objective",
+            "description": "Determine if the slope of a sample regression line is consistent with random variation from a population regression model."
+          },
+          {
+            "name": "Old Faithful Example",
+            "children": [
+              {
+                "name": "1995 Population Data",
+                "description": "Scatterplot: Moderately strong, positive, linear relationship between duration and wait time.  Population regression line: predicted wait time = 33.34 + 13.29(duration)",
+                "children": [
+                  { "name": "Population Regression Line Equation",
+                    "value": "ŷ = 33.34 + 13.29x"
+                  }
+                ]
+              },
+              {
+                "name": "2019 Sample Data",
+                "description": "Scatterplot: Moderately weak, positive, linear relationship. Sample regression line: predicted wait time = 62.95 + 7.79(duration)",
+                "children": [
+                  {
+                    "name": "Sample Regression Line Equation",
+                    "value": "ŷ = 62.95 + 7.79x"
+                  }
+                ]
+              },
+              {
+                "name": "Key Question",
+                "description": "Is the 1995 population regression model still valid for 2019?"
+              }
+            ]
+          },
+          {
+            "name": "Simulation Process",
+            "children": [
+              {
+                "name": "Step 1",
+                "description": "Take many random samples of size n (e.g., 25) from the 1995 population."
+              },
+              {
+                "name": "Step 2",
+                "description": "Calculate the slope of each sample regression line."
+              },
+              {
+                "name": "Step 3",
+                "description": "Build the simulated sampling distribution of the slope."
+              },
+              {
+                "name": "Step 4",
+                "description": "Compare the observed sample slope (2019) to the simulated sampling distribution."
+              },
+              {
+                 "name": "Step 5",
+                 "description": "Estimate the Probability: Getting sample regression line with slope at least as extreme/unusual as the one observed (7.79)."
+              }
+            ]
+          },
+          {
+            "name": "Conclusion (Old Faithful)",
+            "description": "The 1995 model is not valid for 2019. The probability of observing a sample slope as extreme as 7.79 is approximately zero, given the 1995 population model."
+          }
+        ]
+      },
+      {
+        "name": "9.2 Confidence Intervals for the Slope",
+         "children": [
+           {
+             "name": "Video 9.2.1",
+             "children": [
+               {
+                  "name": "Learning Objectives",
+                  "children": [
+                    {
+                      "name": "Conditions for Inference",
+                      "description": "What conditions must the population regression model meet for valid confidence intervals and significance tests?"
+                    },
+                    {
+                      "name": "Sampling Distribution of Slope",
+                      "description": "Determine the shape, center, and variability of the sampling distribution of the slope."
+                    }
+                  ]
+               },
+                {
+                  "name": "Old Faithful Revisited",
+                  "description": "Connecting the 1995 population model to the 2019 sample and the need for inference."
+                },
+               {
+                  "name": "Population Regression Model",
+                  "value": "μy = α + βx",
+                  "description": "μy is the mean value of the response variable y for a given value of the explanatory variable x."
+  
+               },
+               {
+                  "name": "Conditions for Inference on Slope (β)",
+                  "children": [
+                      {
+                          "name": "Linearity",
+                          "description": "The true relationship between x and y is linear (check scatterplot and residual plot)."
+                      },
+                      {
+                          "name": "Constant Standard Deviation",
+                          "description": "The standard deviation of y values is the same for all values of x (check scatterplot and residual plot)."
+                      },
+                      {
+                        "name": "Normality of Residuals",
+                        "description": "For any given x, the y values are approximately normally distributed (check a graph of the residuals - dotplot, histogram)."
+                      },
+                      {
+                        "name": "Random",
+                        "description": "Data come from a random sample or randomized experiment."
+                      },
+                      {
+                          "name": "Independence",
+                          "description": "Individual observations are independent.  If sampling without replacement, check the 10% condition: n ≤ 0.1N."
+                      }
+  
+                  ]
+               },
+               {
+                 "name": "Sampling Distribution of the Slope (b)",
+                 "children": [
+                   {
+                     "name": "Shape",
+                     "description": "Approximately normal (when conditions are met)."
+                   },
+                   {
+                     "name": "Center",
+                     "description": "Mean = β (the true population slope)."
+                   },
+                   {
+                     "name": "Variability (Standard Deviation)",
+                     "value": "σb = σ / (σx * √n)",
+                     "description": "σ = standard deviation of residuals for the population regression line. σx = standard deviation of x values in the population. n = sample size."
+                   }
+                 ]
+               },
+               {
+                 "name": "Lingering Questions",
+                 "description": "How to check conditions using only sample data?  How to estimate the standard deviation of the sampling distribution (σb) when σ and σx are unknown?"
+               }
+  
+             ]
+           },
+           {
+             "name": "Video 9.2.2",
+             "children": [
+               {
+                 "name": "Learning Objectives",
+                 "children": [
+                   {
+                     "name": "Identify Procedure",
+                     "description": "Identify an appropriate procedure for a confidence interval for the slope."
+                   },
+                   {
+                     "name": "Verify Conditions",
+                     "description": "Verify conditions for calculating a confidence interval for the slope."
+                   }
+                 ]
+               },
+               {
+                  "name": "Checking Conditions with Sample Data",
+                  "children": [
+                    {
+                      "name": "Linearity",
+                      "description": "Examine the scatterplot and residual plot for the *sample* data. Look for a linear pattern in the scatterplot and random scatter in the residual plot."
+                    },
+                    {
+                        "name": "Constant Standard Deviation",
+                        "description": "Examine the scatterplot and residual plot for the *sample* data. Look for roughly equal spread of residuals across the range of x values."
+                    },
+                    {
+                      "name": "Normality of Residuals",
+                      "description": "Create a dotplot, histogram, or other graph of the *sample* residuals.  Look for approximate normality (no strong skewness or outliers). If non-normality is evident, n > 30 is needed."
+                    },
+                    {
+                        "name":"Random",
+                        "description": "Was the data from random sample or randomized experiment?"
+                    },
+                    {
+                        "name":"Independence",
+                        "description":"If sampling without replacement check 10% condition."
+                    }
+                  ]
+               },
+               {
+                  "name": "Estimating Standard Deviation of b",
+                  "children": [
+                    {
+                        "name": "Estimating σ",
+                        "description": "Use 's', the sample standard deviation of the residuals.  s = √(Σ(residuals^2) / (n - 2))  Often found in computer output."
+                    },
+                    {
+                      "name": "Estimating σx",
+                      "description": "Use sx, the sample standard deviation of the x values.  May be given or need to be calculated."
+                    },
+                    {
+                      "name": "Standard Error of the Slope (SEb)",
+                      "value": "SEb = s / (sx * √n)",
+                      "description": "Estimate of the standard deviation of the sampling distribution of b."
+                    }
+                  ]
+               },
+                {
+                  "name": "Appropriate Procedure",
+                  "description": "t-interval for the slope (because we estimate σ with s)."
+                }
+             ]
+           },
+           {
+            "name": "Video 9.2.3",
+            "children": [
+              {
+                "name": "Learning Objectives",
+                "children": [
+                  {
+                    "name": "Margin of Error",
+                    "description": "Determine the margin of error when estimating the slope."
+                  },
+                  {
+                    "name": "Calculate Confidence Interval",
+                    "description": "Calculate a confidence interval for the slope."
+                  }
+                ]
+              },
+              {
+                "name": "Confidence Interval General Form",
+                "value": "Point Estimate ± Margin of Error",
+                "description": "Margin of Error = Critical Value * Standard Error of Statistic"
+              },
+              {
+                "name": "Confidence Interval for Slope",
+                "value": "b ± t* * SEb",
+                "description": "b = sample slope. t* = critical value from t-distribution with n-2 degrees of freedom. SEb = standard error of the slope."
+              },
+              {
+                  "name": "Finding t*",
+                  "description": "Use t-table (Table B) or calculator (inverse-t function) with df = n-2 and the desired confidence level."
+              },
+              {
+                "name": "Calculating SEb",
+                "description": "SEb = s / (sx * √n).  Often provided in computer output; otherwise, calculate s and sx."
+              },
+              {
+                  "name": "Computer Output",
+                  "description": "Typically provides b, SEb, and sometimes s.  sx may need to be calculated separately."
+              },
+              {
+                "name": "Factors Affecting Interval Width",
+                "children": [
+                  {
+                    "name": "Sample Size (n)",
+                    "description": "Larger n leads to smaller SEb and narrower interval."
+                  },
+                  {
+                    "name": "Confidence Level",
+                    "description": "Lower confidence level leads to smaller t* and narrower interval."
+                  }
+                ]
+              },
+              {
+                  "name": "Example Calculation (Old Faithful)",
+                  "description": "Demonstrates calculation using the Old Faithful 2019 data."
+              },
+               {
+                  "name": "Practice Problem (Windup Airplanes)",
+                  "description": "Practice calculating a confidence interval using provided computer output."
+               }
+            ]
+           }
+         ]
+      },
+      {
+        "name": "9.3 Justifying a Claim with a Confidence Interval",
+        "children": [
+          {
+            "name": "Video 9.3.1",
+            "children":[
+              {
+                "name": "Learning Objectives",
+                "children":[
+                  {
+                    "name": "Interpret CI for Slope",
+                    "description": "Interpret a confidence interval for the slope of a population regression line."
+                  },
+                  {
+                    "name": "Justify a claim",
+                    "description": "Justify a claim based on a confidence interval for the slope."
+                  }
+                ]
+              },
+              {
+                  "name":"Interpreting Confidence Interval",
+                  "description":"We are C% confident the interval from __ to __ captures the slope of the population regression line relating y to x [context]."
+              },
+              {
+                  "name":"Interpreting Confidence Level",
+                  "description":"If we were to repeat the random data collection process many times, with the same sample size, about C% of the resulting confidence intervals would capture the true slope of the population."
+  
+              },
+              {
+                  "name":"Justifying a Claim",
+                  "description":"Check if the CI contains a specific value (e.g., 0). If 0 is in the CI, there's not convincing evidence of a linear relationship. If CI contains only positive/negative, it supports a positive/negative association."
+              },
+              {
+                  "name":"Example (Old Faithful)",
+                  "description":"Interprets the 95% CI for the slope calculated previously.  Concludes no convincing evidence of a linear relationship in 2019 because 0 is in the interval."
+              },
+              {
+                  "name":"Practice Problem (Windup Airplanes)",
+                  "description": "Interpreting CI and justifying a claim of relationship."
+              }
+            ]
+          },
+          {
+            "name": "Video 9.3.2",
+            "children":[
+              {
+                  "name": "Learning Objective",
+                  "description": "Construct and interpret a confidence interval for the slope of a population regression line from start to finish."
+              },
+              {
+                  "name": "Example from 2019 AP Exam",
+                  "description": "Real estate agent believes selling price decreases by $2000 per mile from city center.  Random sample of 20 houses.  Construct and interpret a 95% CI for the slope."
+              },
+              {
+                  "name": "Four-Step Process",
+                  "children":[
+                      {
+                          "name": "State",
+                          "description": "State the parameter you want to estimate and the confidence level."
+                      },
+                      {
+                          "name": "Plan",
+                          "description":"Identify the correct inference procedure (t-interval for slope) and verify conditions (often assumed met in exam questions)."
+                      },
+                      {
+                        "name":"Do",
+                        "description":"Calculate interval using b +/- t*SEb, finding t* and SEb from computer output."
+                      },
+                      {
+                        "name": "Conclude",
+                        "description": "Interpret the interval in context. We are [confidence level] % confident the interval from [lower, upper] captures the slope of the population regression line in [context]"
+                      }
+                  ]
+              },
+              {
+                  "name":"Justifying the Claim",
+                  "description":"Does the CI contain the value suggested by the agent's belief (-2)? If so, the data do not contradict the belief."
+              }
+  
+            ]
+          }
+  
+        ]
+      },
+       {
+        "name": "9.4 Setting Up a Test for the Slope",
+        "children": [
+           {
+             "name": "Video 9.4.1",
+             "children":[
+               {
+                  "name": "Learning Objectives",
+                  "children":[
+                    {
+                       "name":"Null Hypothesis",
+                       "description":"How to state a null hypothesis."
+                    },
+                    {
+                      "name":"Alternative Hypothesis",
+                      "description":"How to state the alternative hypothesis."
+                    }
+                  ]
+               },
+               {
+                  "name":"Example: Schools and Equal Opportunity",
+                  "description":"Investigating if increasing attendance can improve test scores for low-income students.  Data on attendance and Algebra I test scores."
+               },
+               {
+                  "name": "Null Hypothesis (H0)",
+                  "value": "β = 0",
+                  "description": "There is no linear relationship between x and y. The slope of the population regression line is zero.  Always a statement of equality."
+               },
+               {
+                  "name":"Alternative Hypothesis (Ha)",
+                  "children":[
+                    {
+                        "name":"One-Sided (Positive)",
+                        "value":"β > 0",
+                        "description": "Positive linear relationship."
+                    },
+                    {
+                        "name":"One-Sided (Negative)",
+                        "value":"β < 0",
+                        "description":"Negative linear relationship."
+                    },
+                    {
+                      "name": "Two-Sided",
+                      "value": "β ≠ 0",
+                      "description": "There *is* a linear relationship (could be positive or negative)."
+                    }
+                  ]
+  
+               },
+               {
+                  "name":"Defining the Parameter (β)",
+                  "description":"Always define β as the slope of the population (or true) regression line relating y to x in the context of the problem."
+               },
+               {
+                  "name":"Practice (Spilling Drinks)",
+                  "description": "Stating hypothesis relating to car speed and amount of drink spilled."
+               }
+             ]
+           },
+           {
+             "name": "Video 9.4.2",
+             "children":[
+                {
+                  "name":"Learning Objectives",
+                  "children":[
+                    {
+                      "name":"Identify Procedure",
+                      "description": "Identify an appropriate significance test procedure."
+                    },
+                    {
+                      "name":"Verify Conditions",
+                      "description":"How do we verify conditions for performing a test about the slope?"
+                    }
+                  ]
+                },
+                {
+                  "name":"Appropriate Procedure",
+                  "description":"t-test for the slope."
+                },
+                {
+                  "name": "Conditions for Inference (Same as CI)",
+                  "children": [
+                    {
+                      "name": "Linearity",
+                      "description": "The true relationship between x and y is linear (check scatterplot and residual plot)."
+                    },
+                    {
+                      "name": "Constant Standard Deviation",
+                      "description": "The standard deviation of y values is the same for all values of x (check scatterplot and residual plot)."
+                    },
+                    {
+                      "name": "Normality of Residuals",
+                      "description": "For any given x, the y values are approximately normally distributed (check a graph of the residuals - dotplot, histogram)."
+                    },
+                    {
+                      "name": "Random",
+                      "description": "Data come from a random sample or randomized experiment."
+                    },
+                    {
+                      "name": "Independence",
+                      "description": "Individual observations are independent.  If sampling without replacement, check the 10% condition: n ≤ 0.1N."
+                    }
+                  ]
+                },
+                 {
+                   "name": "Checking Conditions (Texas Example)",
+                   "description": "Demonstrates checking the conditions using the Texas attendance and test score data."
+                 }
+             ]
+           }
+        ]
+      },
+       {
+        "name":"9.5 Carrying Out a Test for the Slope",
+        "children":[
+           {
+            "name":"Video 9.5.1",
+            "children":[
+               {
+                "name":"Learning Objectives",
+                "children":[
+                  {
+                    "name":"Calculate Test Statistic",
+                    "description":"How to calculate test statistic."
+                  },
+                  {
+                    "name":"Calculate P-value",
+                    "description":"How to calculate a p-value."
+                  }
+                ]
+               },
+               {
+                "name":"Test Statistic (General Form)",
+                "value":"(Statistic - Parameter) / Standard Error of Statistic"
+               },
+               {
+                  "name":"Test Statistic for Slope",
+                  "value":"t = (b - β0) / SEb",
+                  "description": "b = sample slope. β0 = hypothesized value of the slope (usually 0).  SEb = standard error of the slope."
+               },
+               {
+                  "name":"Finding t and SEb",
+                  "description":"Usually found in computer output.  If not, SEb = s / (sx * √n)."
+               },
+                {
+                  "name": "P-value",
+                  "description": "Use t-distribution with df = n-2.  Find the probability of observing a t-statistic as extreme or more extreme than the calculated value, in the direction(s) specified by Ha."
+                },
+              {
+                "name":"One-Sided vs. Two-Sided P-values",
+                "description":"One-sided:  P(t ≥ calculated t) or P(t ≤ calculated t).  Two-sided: P(t ≥ |calculated t|) + P(t ≤ -|calculated t|)."
+              },
+              {
+                  "name":"Using Technology",
+                  "description": "Calculator (tcdf function) or tables can be used to find the p-value."
+              },
+              {
+                "name":"Example (Texas) and Practice (Drinks)",
+                "description": "Demonstrates calculating the test statistic and p-value."
+              }
+            ]
+           },
+            {
+              "name":"Video 9.5.2",
+              "children":[
+                  {
+                      "name":"Learning Objectives",
+                      "children":[
+                          {
+                              "name":"Interpret P-value",
+                              "description":"How to interpret the P-value."
+                          },
+                          {
+                            "name":"State a Conclusion",
+                            "description":"How to state a conclusion in a test."
+                          }
+                      ]
+                  },
+                  {
+                    "name":"Interpreting the P-value",
+                    "description":"Assuming [H0 is true in context], there is a [P-value] probability of getting a sample slope as extreme as or more extreme than [observed b] by chance alone."
+                  },
+                  {
+                      "name":"Making a Conclusion",
+                      "children":[
+                          {
+                              "name":"P-value ≤ α",
+                              "description":"Reject H0.  There is convincing statistical evidence for Ha [in context]."
+                          },
+                          {
+                              "name":"P-value > α",
+                              "description": "Fail to reject H0.  There is *not* convincing statistical evidence for Ha [in context]."
+                          }
+                      ]
+                  },
+                  {
+                    "name": "Example and Practice",
+                    "description": "Interpreting the p-value and making a conclusion for the Texas and drink-spilling examples."
+                  }
+              ]
+            },
+            {
+              "name":"Video 9.5.3",
+              "children":[
+                {
+                  "name":"Learning Objectives",
+                  "description":"Conduct a complete significance test about the slope of a population regression line."
+                },
+                {
+                  "name": "Example from 2001 AP Exam",
+                  "description": "Predicting Ph.D. completion based on GPA and credit hours. Data for students who did and did not complete the program."
+                },
+                {
+                  "name":"Four-Step Process",
+                  "children":[
+                    {
+                        "name": "State",
+                        "description": "State the hypotheses (H0 and Ha) and define the parameter (β). Give the significance level (α)."
+                    },
+                    {
+                      "name":"Plan",
+                      "description":"Identify the appropriate inference procedure (t-test for slope) and verify conditions (often assumed met)."
+                    },
+                    {
+                      "name":"Do",
+                      "description": "Calculate the test statistic (t) and p-value (using computer output and t-distribution)."
+                    },
+                    {
+                      "name": "Conclude",
+                      "description": "Make a conclusion based on the p-value (reject or fail to reject H0) and state the conclusion in context."
+                    }
+                  ]
+                },
+                {
+                  "name": "Comparing Groups",
+                  "description": "Comparing the strength of evidence for a relationship between two groups (completed vs. did not complete Ph.D.) by comparing p-values (or t-statistics)."
+                }
+              ]
+            }
+        ]
+      },
+      {
+        "name": "9.6 Skills Focus: Selecting an Appropriate Inference Procedure",
+        "children": [
+          {
+            "name": "Learning Objectives",
+            "children": [
+              {
+                "name": "Inference Methods Recap",
+                "description": "What inference methods were learned in units 6-9?"
+              },
+              {
+                "name": "Identify Procedure",
+                "description": "How to identify the appropriate inference procedure on the AP exam."
+              }
+            ]
+          },
+          {
+            "name": "Inference Recap",
+            "children": [
+              {
+                "name": "Confidence Intervals",
+                "description": "Used to *estimate* a parameter."
+              },
+              {
+                "name": "Significance Tests",
+                "description": "Used to *test a claim* about a parameter."
+              }
+            ]
+          },
+          {
+            "name": "Inference by Unit",
+            "children": [
+              {
+                "name": "Unit 6: Categorical Data - Proportions",
+                "description": "One-sample z-interval for p, Two-sample z-interval for p1-p2, One-sample z-test for p, Two-sample z-test for p1-p2"
+              },
+              {
+                "name": "Unit 7: Quantitative Data - Means",
+                "description": "One-sample t-interval for μ, Two-sample t-interval for μ1-μ2, One-sample t-test for μ, Two-sample t-test for μ1-μ2 (and paired t-procedures)"
+              },
+              {
+                "name": "Unit 8: Categorical Data - Chi-Square",
+                "description": "Chi-square test for goodness of fit, Chi-square test for homogeneity, Chi-square test for independence"
+              },
+              {
+                "name": "Unit 9: Quantitative Data - Slopes",
+                "description": "t-interval for β, t-test for β"
+              }
+            ]
+          },
+          {
+             "name":"Summary Charts",
+             "description":"Summary slides provided, reviewing procedures from units 6 to 9."
+          },
+          {
+            "name": "Selecting the Correct Procedure",
+            "description": "13 (or 15) different inference procedures!",
+            "children":[
+              {
+                  "name":"Step 1",
+                  "description": "Identify the individual/case in the data set."
+              },
+              {
+                  "name":"Step 2",
+                  "description": "Identify the variable(s) of interest. Are they categorical or quantitative?"
+              },
+              {
+                "name":"Step 3",
+                "description":"Determine Goal: Are we estimating something (CI) or assessing evidence for claim (Hypothesis Test)?"
+              },
+              {
+                "name": "Step 4",
+                "description": "Determine Number of Samples/Groups: One sample, two sample, paired?"
+              }
+            ]
+          },
+          {
+            "name": "Example (1997 AP Exam)",
+            "description": "Analyzing defective computer chips from two ovens. Paired data (by hour).  Quantitative variable (% defective).  Testing a claim.  Paired t-test."
+          },
+          {
+             "name":"Practice Resource",
+             "description": "Larry Green's website with randomly selected research questions for practice identifying the correct inference procedure."
+          },
+          {
+            "name": "Practice Example (Political Affiliation and Birth Month)",
+            "description": "Two categorical variables (political affiliation and birth month).  One sample.  Chi-square test for independence."
+          }
+        ]
+      }
+    ]
+  }

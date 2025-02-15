@@ -1,0 +1,4 @@
+Using the mind map included in this context, 
+Make a set of flashcards which will test a student's comprehension of all concepts.
+
+Each flashcard is a multiple choice question, with as little as two answers and at most 4 possible answers.  Make sure each answer is plausible enough to test a student's precise knowledge.  Also, consider how long a high school student will take to answer each question and output that next to the question.  Clearly indicate which answer is correct.

@@ -1,0 +1,359 @@
+Flashcard 1
+Q: What is the primary purpose of simulating sample slopes in regression analysis? (25-35 sec)
+A) To calculate the population mean
+B) To visualize the sampling distribution of the slope
+C) To verify linearity condition
+D) To determine residual values
+Correct: B
+---
+Flashcard 2
+Q: Which three conditions must be verified for inference about slopes? (30-45 sec)
+A) Linearity, Normality, Randomness
+B) Equal Variance, Linearity, 10% Condition
+C) Linearity, Equal Variance, Normality of Residuals
+D) Independence, Randomness, Normality of x-values
+Correct: C
+---
+Flashcard 3
+Q: The center of the sampling distribution of b (sample slope) is: (20-30 sec)
+A) Always 0
+B) The population slope β
+C) The mean of x-values
+D) The mean of y-values
+Correct: B
+---
+Flashcard 4
+Q: A 95% confidence interval for slope is (-0.15, 0.08). This suggests: (35-45 sec)
+A) Positive relationship exists
+B) Negative relationship exists
+C) No convincing evidence of linear relationship
+D) Non-normal residuals
+Correct: C
+---
+Flashcard 5
+Q: Which formula calculates the test statistic for slope significance? (40-60 sec)
+A) (b - β)/SE(b)
+B) (x̄ - μ)/(s/√n)
+C) (p̂ - p)/√(p(1-p)/n)
+D) (observed - expected)/√expected
+Correct: A
+---
+Flashcard 6
+Q: What does the standard error of the slope (SE(b)) estimate? (25-35 sec)
+A) Variability in x-values
+B) Standard deviation of the sampling distribution of b
+C) Mean residual value
+D) Population y-intercept
+Correct: B
+---
+Flashcard 7
+Q: For a t-test on slope, degrees of freedom equals: (20-30 sec)
+A) n-1
+B) n-2
+C) Number of predictors
+D) Always 30
+Correct: B
+---
+Flashcard 8
+Q: Which plot best checks the equal variance condition? (30-45 sec)
+A) Histogram of residuals
+B) Scatterplot of x vs y
+C) Residual plot against x
+D) QQ-plot of residuals
+Correct: C
+---
+Flashcard 9
+Q: If a 90% CI for slope contains 0, the p-value for H₀: β=0 would be: (35-50 sec)
+A) < 0.10
+B) > 0.10
+C) Exactly 0.10
+D) Cannot determine
+Correct: B
+---
+Flashcard 10
+Q: Which alternative hypothesis suggests a negative relationship? (20-30 sec)
+A) Hₐ: β ≠ 0
+B) Hₐ: β > 0
+C) Hₐ: β < 0
+D) Hₐ: b ≠ 0
+Correct: C
+---
+Flashcard 11
+Q: What does s represent in SE(b) formula? (25-35 sec)
+A) Sample standard deviation of x
+B) Sample standard deviation of y
+C) Standard error of estimate
+D) Standard deviation of residuals
+Correct: D
+---
+Flashcard 12
+Q: Which procedure would test for a linear relationship between two quantitative variables? (30-45 sec)
+A) Chi-square test
+B) Two-sample t-test
+C) t-test for slope
+D) One-proportion z-test
+Correct: C
+---
+Flashcard 13
+Q: A p-value of 0.03 in slope test (α=0.05) leads to: (25-35 sec)
+A) Reject H₀, evidence of relationship
+B) Fail to reject H₀, no evidence
+C) Accept Hₐ, proven relationship
+D) Inconclusive results
+Correct: A
+---
+Flashcard 14
+Q: Which condition is verified with a residual histogram? (30-45 sec)
+A) Linearity
+B) Equal Variance
+C) Normality of Residuals
+D) Randomness
+Correct: C
+---
+Flashcard 15
+Q: What's the correct interpretation of 95% confidence level? (40-60 sec)
+A) 95% probability β is in the interval
+B) 95% of slopes will be in the interval
+C) 95% of intervals from repeated samples will contain β
+D) 95% of data points fall within the interval
+Correct: C  
+
+Flashcard 1
+Q: In the Old Faithful example, what conclusion was drawn when the 2019 sample slope (7.79) fell outside the simulated sampling distribution? (30-45 sec)
+A) The 1995 model remains valid
+B) Random variation explains the difference
+C) 2019 shows stronger relationship
+D) 1995 model isn't valid for 2019
+Correct: D
+---
+Flashcard 2
+Q: Which residual analysis checks the normality condition for slope inference? (25-35 sec)
+A) Scatterplot of x vs y
+B) Histogram of residuals
+C) Residual plot against predicted values
+D) QQ-plot of x-values
+Correct: B
+---
+Flashcard 3
+Q: When calculating SE(b), what does 's' represent in the formula SE(b) = s/(s_x√n)? (30-45 sec)
+A) Sample SD of x
+B) Sample SD of residuals
+C) Population SD of y
+D) Standard error of mean
+Correct: B
+---
+Flashcard 4
+Q: A 95% CI for slope β is (-1.2, 3.4). How should we interpret this regarding linear relationship? (40-60 sec)
+A) Evidence of positive relationship
+B) Evidence of negative relationship
+C) No evidence against β=0
+D) Non-linear relationship confirmed
+Correct: C
+---
+Flashcard 5
+Q: For the Texas school attendance example, what would H₀: β=0 suggest? (25-35 sec)
+A) Attendance affects test scores
+B) No attendance-test score relationship
+C) Negative correlation exists
+D) Data collection was flawed
+Correct: B
+---
+Flashcard 6
+Q: Which procedure analyzes political affiliation vs birth month? (35-50 sec)
+A) t-test for slope
+B) Chi-square test for independence
+C) Paired t-test
+D) One-proportion z-test
+Correct: B
+---
+Flashcard 7
+Q: What's the DF for t-test on slope with n=20 pairs? (20-30 sec)
+A) 18
+B) 19
+C) 20
+D) 21
+Correct: A (n-2=18)
+---
+Flashcard 8
+Q: Which condition is verified by random scatter in residual plot? (30-45 sec)
+A) Normality
+B) Linearity
+C) Equal Variance
+D) Independence
+Correct: B
+---
+Flashcard 9
+Q: If computer output shows b=2.5 and SE(b)=0.8 with n=30, what's the test statistic for H₀: β=0? (40-60 sec)
+A) 2.5/0.8
+B) 0.8/2.5
+C) 2.5/(0.8√30)
+D) (2.5-0)/0.8
+Correct: D
+---
+Flashcard 10
+Q: Which scenario requires paired t-test? (35-50 sec)
+A) Comparing defect rates from two ovens hourly
+B) Testing political affiliation vs birth month
+C) Analyzing GPA vs PhD completion
+D) Testing car speed vs drink spillage
+Correct: A
+---
+Flashcard 11
+Q: What's the correct interpretation of t=3.14, p=0.002 in slope test? (40-60 sec)
+A) 0.2% chance H₀ is true
+B) 0.2% chance of getting b=0 if H₀ true
+C) 0.2% chance of observing t≥3.14 if H₀ true
+D) 99.8% confidence β≠0
+Correct: C
+---
+Flashcard 12
+Q: Which factor does NOT affect CI width for slope? (25-35 sec)
+A) Sample size
+B) Confidence level
+C) Residual SD
+D) Mean of x-values
+Correct: D
+---
+Flashcard 13
+Q: For Ph.D. completion analysis, comparing t-statistics from two groups shows: (45-60 sec)
+A) Which relationship is stronger
+B) Which sample size was larger
+C) Which had normal residuals
+D) Which data was more linear
+Correct: A
+---
+Flashcard 14
+Q: What's missing from this interpretation: "We're 95% confident the slope is between 1.2-3.4"? (30-45 sec)
+A) Contextual reference
+B) Confidence level justification
+C) Random sampling mention
+D) All of the above
+Correct: A
+---
+Flashcard 15
+Q: Which is NOT required for t-test on slope? (25-35 sec)
+A) Linear scatterplot pattern
+B) Normally distributed x-values
+C) Random sampling
+D) Approximately normal residuals
+Correct: B
+
+lashcard 1
+Q: In the Old Faithful simulation (9.1), what does the position of the 2019 sample slope (7.79) in the simulated distribution indicate? (30-45 sec)
+A) Supports 1995 model's validity
+B) Suggests random sampling error
+C) Requires larger sample size
+D) Indicates model invalidity for 2019
+Correct: D (Mind Map: 9.1 Conclusion)
+---
+Flashcard 2
+Q: Which three residual analyses verify conditions for slope inference? (40-60 sec)
+A) Scatterplot, residual histogram, QQ-plot
+B) Residual plot, x-value histogram, scatterplot
+C) Scatterplot, residual plot, residual histogram
+D) QQ-plot of x-values, residual plot, scatterplot
+Correct: C (Mind Map: 9.2.2 Checking Conditions)
+---
+Flashcard 3
+Q: For n=20 houses in the AP real estate example (9.3.2), what's the critical t for 95% CI? (25-35 sec)
+A) 1.725
+B) 2.086
+C) 2.093
+D) 2.845
+Correct: B (df=18, Mind Map: 9.2.3 t Calculation)
+---
+Flashcard 4
+Q: In the Texas school hypothesis test (9.4), what does H₀: β=0 imply? (20-30 sec)
+A) Attendance improves scores
+B) No attendance-score relationship
+C) Negative correlation exists
+D) Sample was biased
+Correct: B (Mind Map: 9.4.1 Null Hypothesis)
+---
+Flashcard 5
+Q: Which formula correctly calculates the t-statistic for slope? (45-60 sec)
+A) (b - β)/SE(b)
+B) (x̄ - μ)/(s/√n)
+C) (b - 0)/s
+D) β/SE(b)
+Correct: A (Mind Map: 9.5.1 Test Statistic)
+---
+Flashcard 6
+Q: A residual plot shows funnel-shaped pattern. Which condition is violated? (30-45 sec)
+A) Linearity
+B) Normality
+C) Equal Variance
+D) Independence
+Correct: C (Mind Map: 9.2.2 Constant SD Condition)
+---
+Flashcard 7
+Q: In the Ph.D. completion analysis (9.5.3), comparing t-statistics of two groups shows: (50-70 sec)
+A) Which relationship is stronger
+B) Which sample was larger
+C) Which had normal residuals
+D) Which data collection was better
+Correct: A (Mind Map: 9.5.3 Comparing Groups)
+---
+Flashcard 8
+Q: Which procedure analyzes oven defect rates measured hourly? (40-60 sec)
+A) Two-sample t-test
+B) Chi-square test
+C) Paired t-test
+D) Slope test
+Correct: C (Mind Map: 9.6 Paired Data Example)
+---
+Flashcard 9
+Q: Computer output shows b=2.1, SEb=0.5, n=25. What's the 90% CI? (60-90 sec)
+A) 2.1 ± 1.645(0.5)
+B) 2.1 ± 1.714(0.5)
+C) 2.1 ± 1.711(0.5)
+D) 2.1 ± 2.064(0.5)
+Correct: C (df=23, t=1.714, Mind Map: 9.2.3 CI Formula)
+---
+Flashcard 10
+Q: Which interpretation correctly states confidence level meaning? (45-60 sec)
+A) "95% chance β is in our interval"
+B) "95% of slopes match our interval"
+C) "95% of samples yield containing intervals"
+D) "95% of data points within interval"
+Correct: C (Mind Map: 9.3.1 CI Interpretation)
+---
+Flashcard 11
+Q: For political affiliation vs birth month analysis (9.6), which test is appropriate? (30-45 sec)
+A) t-test for slope
+B) Chi-square test
+C) Paired t-test
+D) One-proportion z-test
+Correct: B (Mind Map: 9.6 Practice Example)
+---
+Flashcard 12
+Q: What's the DF for slope test with n=15 data pairs? (20-30 sec)
+A) 12
+B) 13
+C) 14
+D) 15
+Correct: B (n-2=13, Mind Map: 9.5.1 DF Calculation)
+---
+Flashcard 13
+Q: Which condition requires normal residual distribution? (25-35 sec)
+A) Linearity
+B) Equal Variance
+C) Normality
+D) Randomness
+Correct: C (Mind Map: 9.2.1 Conditions List)
+---
+Flashcard 14
+Q: In the drink-spilling study (9.4), what would Ha: β>0 indicate? (30-45 sec)
+A) Faster speed reduces spilling
+B) Speed doesn't affect spilling
+C) Faster speed increases spilling
+D) Non-linear relationship
+Correct: C (Mind Map: 9.4.1 Alternative Hypotheses)
+---
+Flashcard 15
+Q: Which value in SE(b) = s/(sₓ√n) represents residual variability? (25-35 sec)
+A) s
+B) sₓ
+C) n
+D) √n
+Correct: A (Mind Map: 9.2.2 SE(b) Components)
